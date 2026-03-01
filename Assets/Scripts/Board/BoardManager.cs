@@ -11,16 +11,26 @@ namespace DragonMerge.Board
         [Header("Grid")]
         [SerializeField] private int width = 5;
         [SerializeField] private int height = 8;
-        [SerializeField] private float cellSize = 1f;
-        [SerializeField] private Vector2 boardOffset = Vector2.zero;
+
+        [Header("Board Mapping")]
+        [SerializeField] private SpriteRenderer boardRenderer;
+        [SerializeField] private bool usePerspectiveGrid = true;
+        [SerializeField, Tooltip("Canto inferior esquerdo da área jogável (normalizado 0..1)")]
+        private Vector2 bottomLeftN = new(0.11f, 0.14f);
+        [SerializeField] private Vector2 bottomRightN = new(0.89f, 0.14f);
+        [SerializeField] private Vector2 topLeftN = new(0.22f, 0.84f);
+        [SerializeField] private Vector2 topRightN = new(0.78f, 0.84f);
 
         [Header("Visuals")]
-        [SerializeField] private SpriteRenderer boardRenderer;
-        [SerializeField, Range(0.4f, 1.2f)] private float itemFillRatio = 0.78f;
+        [SerializeField, Range(0.35f, 1.0f)] private float itemFillRatio = 0.68f;
         [SerializeField] private Sprite[] eggSprites;
         [SerializeField] private Sprite[] crackedSprites;
         [SerializeField] private Sprite[] hatchingSprites;
         [SerializeField] private Sprite[] babyDragonSprites;
+
+        [Header("Fallback (se não achar board)")]
+        [SerializeField] private float fallbackCellSize = 1f;
+        [SerializeField] private Vector2 fallbackOffset = Vector2.zero;
 
         [Header("Refs")]
         [SerializeField] private MergeController mergeController;
@@ -33,9 +43,11 @@ namespace DragonMerge.Board
         public bool IsBusy { get; private set; }
 
         private Transform _itemRoot;
-        private Vector2 _boardBottomLeft;
-        private float _cellWidth;
-        private float _cellHeight;
+        private bool _hasMappedBoard;
+        private Vector3 _bottomLeft;
+        private Vector3 _bottomRight;
+        private Vector3 _topLeft;
+        private Vector3 _topRight;
 
         private void Awake()
         {
@@ -73,26 +85,50 @@ namespace DragonMerge.Board
                     .FirstOrDefault(s => s.name.ToLower().Contains("taboleiro5x8") || s.name.ToLower().Contains("tabuleiro"));
             }
 
-            if (boardRenderer != null)
-            {
-                Bounds b = boardRenderer.bounds;
-                _cellWidth = b.size.x / width;
-                _cellHeight = b.size.y / height;
-                _boardBottomLeft = new Vector2(b.min.x, b.min.y);
-            }
-            else
-            {
-                _cellWidth = cellSize;
-                _cellHeight = cellSize;
-                _boardBottomLeft = boardOffset;
-            }
+            _hasMappedBoard = boardRenderer != null && boardRenderer.sprite != null;
+            if (!_hasMappedBoard) return;
+
+            _bottomLeft = NormalizedToWorld(bottomLeftN);
+            _bottomRight = NormalizedToWorld(bottomRightN);
+            _topLeft = NormalizedToWorld(topLeftN);
+            _topRight = NormalizedToWorld(topRightN);
+        }
+
+        private Vector3 NormalizedToWorld(Vector2 n)
+        {
+            var size = boardRenderer.sprite.bounds.size;
+            var local = new Vector3((n.x - 0.5f) * size.x, (n.y - 0.5f) * size.y, 0f);
+            return boardRenderer.transform.TransformPoint(local);
         }
 
         public Vector3 GetWorldPosition(int x, int y)
         {
-            float px = _boardBottomLeft.x + (x + 0.5f) * _cellWidth;
-            float py = _boardBottomLeft.y + (y + 0.5f) * _cellHeight;
-            return new Vector3(px, py, 0f);
+            if (!_hasMappedBoard || !usePerspectiveGrid)
+                return new Vector3(fallbackOffset.x + x * fallbackCellSize, fallbackOffset.y + y * fallbackCellSize, 0f);
+
+            float t = (y + 0.5f) / height;
+            float u = (x + 0.5f) / width;
+
+            Vector3 left = Vector3.Lerp(_bottomLeft, _topLeft, t);
+            Vector3 right = Vector3.Lerp(_bottomRight, _topRight, t);
+            return Vector3.Lerp(left, right, u);
+        }
+
+        private float GetCellWorldSizeAtRow(int y)
+        {
+            if (!_hasMappedBoard || !usePerspectiveGrid)
+                return fallbackCellSize;
+
+            float t = Mathf.Clamp01((y + 0.5f) / height);
+            Vector3 left = Vector3.Lerp(_bottomLeft, _topLeft, t);
+            Vector3 right = Vector3.Lerp(_bottomRight, _topRight, t);
+            float rowWidth = Vector3.Distance(left, right) / width;
+
+            Vector3 low = Vector3.Lerp(_bottomLeft, _topLeft, Mathf.Clamp01((float)y / height));
+            Vector3 high = Vector3.Lerp(_bottomLeft, _topLeft, Mathf.Clamp01((float)(y + 1) / height));
+            float rowHeight = Vector3.Distance(low, high);
+
+            return Mathf.Min(rowWidth, rowHeight);
         }
 
         public MergeItem SpawnRandomEgg(int x, int y, bool fromTop = false)
@@ -116,23 +152,23 @@ namespace DragonMerge.Board
 
             item.SetGridPosition(x, y);
             item.SetData(tier, color, GetSprite(tier, color));
-            FitItemToCell(item);
+            ApplyItemVisualForGrid(item);
             Grid[x, y] = item;
 
             return item;
         }
 
-        private void FitItemToCell(MergeItem item)
+        public void ApplyItemVisualForGrid(MergeItem item)
         {
             if (item == null) return;
             var sr = item.GetComponent<SpriteRenderer>();
             if (sr == null || sr.sprite == null) return;
 
+            float cellTarget = GetCellWorldSizeAtRow(item.Y) * itemFillRatio;
             Vector2 spriteSize = sr.sprite.bounds.size;
             if (spriteSize.x <= 0f || spriteSize.y <= 0f) return;
 
-            float target = Mathf.Min(_cellWidth, _cellHeight) * itemFillRatio;
-            float scale = target / Mathf.Max(spriteSize.x, spriteSize.y);
+            float scale = cellTarget / Mathf.Max(spriteSize.x, spriteSize.y);
             item.transform.localScale = Vector3.one * scale;
         }
 
@@ -157,7 +193,7 @@ namespace DragonMerge.Board
         public void UpgradeItem(MergeItem item, ItemTier newTier)
         {
             item.SetData(newTier, item.Color, GetSprite(newTier, item.Color));
-            FitItemToCell(item);
+            ApplyItemVisualForGrid(item);
         }
 
         public void ClearCell(int x, int y, bool destroyObject)
@@ -214,6 +250,8 @@ namespace DragonMerge.Board
             Grid[bx, by] = a;
             a.SetGridPosition(bx, by);
             b.SetGridPosition(ax, ay);
+            ApplyItemVisualForGrid(a);
+            ApplyItemVisualForGrid(b);
 
             a.MoveTo(this, GetWorldPosition(bx, by));
             b.MoveTo(this, GetWorldPosition(ax, ay));
@@ -226,6 +264,8 @@ namespace DragonMerge.Board
                 Grid[bx, by] = b;
                 a.SetGridPosition(ax, ay);
                 b.SetGridPosition(bx, by);
+                ApplyItemVisualForGrid(a);
+                ApplyItemVisualForGrid(b);
 
                 a.MoveTo(this, GetWorldPosition(ax, ay));
                 b.MoveTo(this, GetWorldPosition(bx, by));

@@ -27,6 +27,7 @@ namespace DragonMerge.Logic
                         boardManager.Grid[x, targetY] = item;
                         boardManager.Grid[x, y] = null;
                         item.SetGridPosition(x, targetY);
+                        boardManager.ApplyItemVisualForGrid(item);
                         item.MoveTo(boardManager, boardManager.GetWorldPosition(x, targetY), 0.1f);
                     }
 
