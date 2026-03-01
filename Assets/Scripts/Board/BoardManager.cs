@@ -16,13 +16,15 @@ namespace DragonMerge.Board
         [SerializeField] private SpriteRenderer boardRenderer;
         [SerializeField] private bool usePerspectiveGrid = true;
         [SerializeField, Tooltip("Canto inferior esquerdo da área jogável (normalizado 0..1)")]
-        private Vector2 bottomLeftN = new(0.11f, 0.14f);
-        [SerializeField] private Vector2 bottomRightN = new(0.89f, 0.14f);
-        [SerializeField] private Vector2 topLeftN = new(0.22f, 0.84f);
-        [SerializeField] private Vector2 topRightN = new(0.78f, 0.84f);
+        private Vector2 bottomLeftN = new(0.18f, 0.24f);
+        [SerializeField] private Vector2 bottomRightN = new(0.82f, 0.24f);
+        [SerializeField] private Vector2 topLeftN = new(0.27f, 0.82f);
+        [SerializeField] private Vector2 topRightN = new(0.73f, 0.82f);
 
         [Header("Visuals")]
-        [SerializeField, Range(0.35f, 1.0f)] private float itemFillRatio = 0.68f;
+        [SerializeField, Range(0.35f, 1.0f)] private float itemFillRatio = 0.62f;
+        [SerializeField, Range(0.5f, 1.5f)] private float bottomRowScaleBoost = 1.18f;
+        [SerializeField, Range(0.3f, 1.2f)] private float topRowScaleBoost = 0.82f;
         [SerializeField] private Sprite[] eggSprites;
         [SerializeField] private Sprite[] crackedSprites;
         [SerializeField] private Sprite[] hatchingSprites;
@@ -122,13 +124,10 @@ namespace DragonMerge.Board
             float t = Mathf.Clamp01((y + 0.5f) / height);
             Vector3 left = Vector3.Lerp(_bottomLeft, _topLeft, t);
             Vector3 right = Vector3.Lerp(_bottomRight, _topRight, t);
-            float rowWidth = Vector3.Distance(left, right) / width;
+            float rowWidthCell = Vector3.Distance(left, right) / width;
 
-            Vector3 low = Vector3.Lerp(_bottomLeft, _topLeft, Mathf.Clamp01((float)y / height));
-            Vector3 high = Vector3.Lerp(_bottomLeft, _topLeft, Mathf.Clamp01((float)(y + 1) / height));
-            float rowHeight = Vector3.Distance(low, high);
-
-            return Mathf.Min(rowWidth, rowHeight);
+            float perspectiveBoost = Mathf.Lerp(bottomRowScaleBoost, topRowScaleBoost, t);
+            return rowWidthCell * perspectiveBoost;
         }
 
         public MergeItem SpawnRandomEgg(int x, int y, bool fromTop = false)
