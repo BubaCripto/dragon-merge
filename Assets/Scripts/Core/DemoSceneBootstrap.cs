@@ -30,9 +30,6 @@ namespace DragonMerge.Core
             if (camera.GetComponent<MobileCameraFitter>() == null)
                 camera.gameObject.AddComponent<MobileCameraFitter>();
 
-            CreateBackground("Assets/Sprites/Environment/ceu-cenario.png", -8, 0.0f);
-            CreateBackground("Assets/Sprites/Environment/cachoeira.png", -7, 0.2f);
-            CreateBackground("Assets/Sprites/Environment/mega-arvores.png", -6, 0.35f);
             var boardSr = CreateBackground("Assets/Sprites/Environment/taboleiro5x8.png", -5, 0f, new Vector3(2f, 3.5f, 0f));
 
             var root = new GameObject("DragonMergeRuntime");
