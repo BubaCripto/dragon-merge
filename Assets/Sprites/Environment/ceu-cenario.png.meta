@@ -1,0 +1,298 @@
+fileFormatVersion: 2
+guid: c455d47813f4b274780d7872402f8d19
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8164593201393561944
+    second: ceu-cenario_0
+  - first:
+      213: 234679728514401387
+    second: ceu-cenario_1
+  - first:
+      213: 2633222102004959151
+    second: ceu-cenario_2
+  - first:
+      213: 1182648926670988406
+    second: ceu-cenario_3
+  - first:
+      213: -996148666913184967
+    second: ceu-cenario_4
+  - first:
+      213: 3210342268450438360
+    second: ceu-cenario_5
+  - first:
+      213: 2733721008991719631
+    second: ceu-cenario_6
+  - first:
+      213: 2235679912326451962
+    second: ceu-cenario_7
+  - first:
+      213: 7541544728832360471
+    second: ceu-cenario_8
+  - first:
+      213: -7869258819236690820
+    second: ceu-cenario_9
+  - first:
+      213: -8780357953641213680
+    second: ceu-cenario_10
+  - first:
+      213: 1110723580233417969
+    second: ceu-cenario_11
+  - first:
+      213: -249069688687707400
+    second: ceu-cenario_12
+  - first:
+      213: -2856852203864199163
+    second: ceu-cenario_13
+  - first:
+      213: 1794440491206921031
+    second: ceu-cenario_14
+  - first:
+      213: -1742047543184217681
+    second: ceu-cenario_15
+  - first:
+      213: 4105606631780745035
+    second: ceu-cenario_16
+  - first:
+      213: 90720341713390541
+    second: ceu-cenario_17
+  - first:
+      213: 2238087073955777606
+    second: ceu-cenario_18
+  - first:
+      213: 1919891526574652580
+    second: ceu-cenario_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ceu-cenario_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1148
+        width: 972
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851f1a042467e4170800000000000000
+      internalID: 8164593201393561944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceu-cenario_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 800
+        width: 1022
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcf866b84d6d8c20800000000000000
+      internalID: 3210342268450438360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceu-cenario_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 394
+        width: 1023
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7489c90cc6cac290800000000000000
+      internalID: -7869258819236690820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ceu-cenario_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 275
+        width: 1009
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011907426f6e52680800000000000000
+      internalID: -8780357953641213680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d32775745a4323c4cafa42b580084701
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ceu-cenario_0: 8164593201393561944
+      ceu-cenario_1: 234679728514401387
+      ceu-cenario_10: -8780357953641213680
+      ceu-cenario_11: 1110723580233417969
+      ceu-cenario_12: -249069688687707400
+      ceu-cenario_13: -2856852203864199163
+      ceu-cenario_14: 1794440491206921031
+      ceu-cenario_15: -1742047543184217681
+      ceu-cenario_16: 4105606631780745035
+      ceu-cenario_17: 90720341713390541
+      ceu-cenario_18: 2238087073955777606
+      ceu-cenario_19: 1919891526574652580
+      ceu-cenario_2: 2633222102004959151
+      ceu-cenario_3: 1182648926670988406
+      ceu-cenario_4: -996148666913184967
+      ceu-cenario_5: 3210342268450438360
+      ceu-cenario_6: 2733721008991719631
+      ceu-cenario_7: 2235679912326451962
+      ceu-cenario_8: 7541544728832360471
+      ceu-cenario_9: -7869258819236690820
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

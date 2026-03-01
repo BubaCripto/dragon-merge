@@ -1,0 +1,578 @@
+fileFormatVersion: 2
+guid: 5eca82c59f962a4428b14401b4e0da19
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3600500908932909259
+    second: char-feminino_0
+  - first:
+      213: 6270679382968028155
+    second: char-feminino_1
+  - first:
+      213: -8462512158326267932
+    second: char-feminino_2
+  - first:
+      213: 5447103133951723292
+    second: char-feminino_3
+  - first:
+      213: 1494990421089110017
+    second: char-feminino_4
+  - first:
+      213: -2382940316963926530
+    second: char-feminino_5
+  - first:
+      213: 909699334065668677
+    second: char-feminino_6
+  - first:
+      213: 8534752266277832429
+    second: char-feminino_7
+  - first:
+      213: -1819488781995560673
+    second: char-feminino_8
+  - first:
+      213: 6369184831799195796
+    second: char-feminino_9
+  - first:
+      213: -3634359647182400079
+    second: char-feminino_10
+  - first:
+      213: 3344826788259157477
+    second: char-feminino_11
+  - first:
+      213: 7648735328236476595
+    second: char-feminino_12
+  - first:
+      213: -7452566533854699224
+    second: char-feminino_13
+  - first:
+      213: -5797332447067198789
+    second: char-feminino_14
+  - first:
+      213: 4760813613387917447
+    second: char-feminino_15
+  - first:
+      213: -5588396589252919865
+    second: char-feminino_16
+  - first:
+      213: -3214763297766619801
+    second: char-feminino_17
+  - first:
+      213: 8547779292136532331
+    second: char-feminino_18
+  - first:
+      213: -457412383458206909
+    second: char-feminino_19
+  - first:
+      213: 5791681380432170551
+    second: char-feminino_20
+  - first:
+      213: 3780002332627076136
+    second: char-feminino_21
+  - first:
+      213: -2804919870496093195
+    second: char-feminino_22
+  - first:
+      213: 4835902786669050361
+    second: char-feminino_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: char-feminino_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1164
+        width: 177
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5373595ef73780ec0800000000000000
+      internalID: -3600500908932909259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char-feminino_1
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1141
+        width: 207
+        height: 348
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbcc22ecade50750800000000000000
+      internalID: 6270679382968028155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char-feminino_2
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1170
+        width: 176
+        height: 318
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efd98f370e1f8a80800000000000000
+      internalID: -8462512158326267932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char-feminino_4
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1140
+        width: 200
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108c0affdd54fb410800000000000000
+      internalID: 1494990421089110017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char-feminino_5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 822
+        width: 222
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd886638681eeed0800000000000000
+      internalID: -2382940316963926530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char-feminino_6
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 819
+        width: 215
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542c46b79b6ef9c00800000000000000
+      internalID: 909699334065668677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char-feminino_8
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 821
+        width: 171
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11b854c790efb6e0800000000000000
+      internalID: -1819488781995560673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char-feminino_9
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 801
+        width: 227
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4987230fbd3e36850800000000000000
+      internalID: 6369184831799195796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char-feminino_10
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 490
+        width: 242
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5dda31829209dc0800000000000000
+      internalID: -3634359647182400079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char-feminino_11
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 490
+        width: 204
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5d5650e363b6e20800000000000000
+      internalID: 3344826788259157477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char-feminino_12
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 490
+        width: 206
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8148c9144c52a60800000000000000
+      internalID: 7648735328236476595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char-feminino_13
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 490
+        width: 211
+        height: 286
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82160ac093a239890800000000000000
+      internalID: -7452566533854699224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char-feminino_14
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 175
+        width: 211
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbaa6bfdadcbb8fa0800000000000000
+      internalID: -5797332447067198789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char-feminino_18
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 171
+        width: 187
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69ec366affcf9670800000000000000
+      internalID: 8547779292136532331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char-feminino_20
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 167
+        width: 205
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e47e4a78f206050800000000000000
+      internalID: 5791681380432170551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: char-feminino_22
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 171
+        width: 209
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb45a72d3ce219d0800000000000000
+      internalID: -2804919870496093195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fe40572814d13b34d8d3051103a18eaf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      char-feminino_0: -3600500908932909259
+      char-feminino_1: 6270679382968028155
+      char-feminino_10: -3634359647182400079
+      char-feminino_11: 3344826788259157477
+      char-feminino_12: 7648735328236476595
+      char-feminino_13: -7452566533854699224
+      char-feminino_14: -5797332447067198789
+      char-feminino_15: 4760813613387917447
+      char-feminino_16: -5588396589252919865
+      char-feminino_17: -3214763297766619801
+      char-feminino_18: 8547779292136532331
+      char-feminino_19: -457412383458206909
+      char-feminino_2: -8462512158326267932
+      char-feminino_20: 5791681380432170551
+      char-feminino_21: 3780002332627076136
+      char-feminino_22: -2804919870496093195
+      char-feminino_23: 4835902786669050361
+      char-feminino_3: 5447103133951723292
+      char-feminino_4: 1494990421089110017
+      char-feminino_5: -2382940316963926530
+      char-feminino_6: 909699334065668677
+      char-feminino_7: 8534752266277832429
+      char-feminino_8: -1819488781995560673
+      char-feminino_9: 6369184831799195796
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

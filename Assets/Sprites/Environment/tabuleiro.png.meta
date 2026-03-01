@@ -1,0 +1,808 @@
+fileFormatVersion: 2
+guid: fa1cb1cb74ab0ac438c1fceaefa414a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1409944093732662897
+    second: ChatGPT Image 24 de fev. de 2026, 11_56_29_0
+  - first:
+      213: 401950936901344125
+    second: ChatGPT Image 24 de fev. de 2026, 11_56_29_1
+  - first:
+      213: 7001067884836431020
+    second: ChatGPT Image 24 de fev. de 2026, 11_56_29_2
+  - first:
+      213: -6182632173643497792
+    second: ChatGPT Image 24 de fev. de 2026, 11_56_29_3
+  - first:
+      213: 1347872051840323449
+    second: ChatGPT Image 24 de fev. de 2026, 11_56_29_4
+  - first:
+      213: -91028757242348906
+    second: ChatGPT Image 24 de fev. de 2026, 11_56_29_5
+  - first:
+      213: -6797798492474684558
+    second: ChatGPT Image 24 de fev. de 2026, 11_56_29_6
+  - first:
+      213: 7785494596382066335
+    second: ChatGPT Image 24 de fev. de 2026, 11_56_29_7
+  - first:
+      213: 97267365483437265
+    second: ChatGPT Image 24 de fev. de 2026, 11_56_29_8
+  - first:
+      213: -1104389414726033957
+    second: ChatGPT Image 24 de fev. de 2026, 11_56_29_9
+  - first:
+      213: -6123568192613108703
+    second: ChatGPT Image 24 de fev. de 2026, 11_56_29_10
+  - first:
+      213: 1543970957542075597
+    second: ChatGPT Image 24 de fev. de 2026, 11_56_29_11
+  - first:
+      213: -1607977847811982164
+    second: ChatGPT Image 24 de fev. de 2026, 11_56_29_12
+  - first:
+      213: -5323885518629742278
+    second: ChatGPT Image 24 de fev. de 2026, 11_56_29_13
+  - first:
+      213: -2443788637252996708
+    second: ChatGPT Image 24 de fev. de 2026, 11_56_29_14
+  - first:
+      213: -5809130411401788343
+    second: ChatGPT Image 24 de fev. de 2026, 11_56_29_15
+  - first:
+      213: -2533840868262144819
+    second: ChatGPT Image 24 de fev. de 2026, 11_56_29_16
+  - first:
+      213: 1157589416325077601
+    second: ChatGPT Image 24 de fev. de 2026, 11_56_29_17
+  - first:
+      213: 3166393960468318059
+    second: ChatGPT Image 24 de fev. de 2026, 11_56_29_18
+  - first:
+      213: -6030959557120634133
+    second: ChatGPT Image 24 de fev. de 2026, 11_56_29_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tabuleiro_0
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 379
+        width: 188
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f762cc64982250942b125e3f73781866
+      internalID: 1378452919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_1
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 214
+        width: 185
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979ce4cead6dd69418ae63e91aa73bb1
+      internalID: -2020486549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_2
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 383
+        width: 183
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9533ecdee51b24c938ef5bb20d38c5
+      internalID: -143453756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_3
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 213
+        width: 187
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8a0f1adfe203246a88ff24d2e67f94
+      internalID: -1763419453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_4
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 543
+        width: 182
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe36f27ee47f7a46926c1476e1dfc92
+      internalID: 1120469146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_5
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 212
+        width: 182
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c7b86bbdb252d44bc425c0891d5473
+      internalID: 1708900261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_6
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 542
+        width: 174
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0065cf0fac0b4f438162f47cf35d678
+      internalID: 1524555122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_7
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 211
+        width: 179
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696c79cdf599b19429b5b04a256d87fe
+      internalID: -25543551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_8
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 600
+        width: 372
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed790cb5ac12f7348b372310429ca526
+      internalID: -612034704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_9
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 293
+        width: 183
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8fa31db40125b41ae2bc1fc278e92b
+      internalID: -1335265128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_10
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 291
+        width: 165
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedcaf1973add714b9c1730e491b122d
+      internalID: -1562249776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_11
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 121
+        width: 182
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d8a8d382fdbb541b2ea56dd09a8294
+      internalID: 747966119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_12
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 117
+        width: 163
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c052bc5de6fef7428f0c0a8c3a32fb8
+      internalID: 87322237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_13
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 435
+        width: 141
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c4b6efd2474fc4e88b72bdef113f2b
+      internalID: -376535410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_14
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 455
+        width: 146
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030bcf595f7dac94e8ba08a9a6667bb6
+      internalID: -2108658839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_15
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 753
+        width: 587
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ed3ed34534ddf4ba26a4100fe86cf8
+      internalID: -1311094143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_16
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 741
+        width: 205
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a74863cd79f6a46813d0786475b60a
+      internalID: 324983535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_17
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 68
+        width: 166
+        height: 650
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7fe4ed39fcdc7449854ac11be5d0d9
+      internalID: 1113231804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 865
+        width: 1064
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573bd10b6a79acc479bc8e0b7e357c49
+      internalID: -837791189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_19
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 730
+        width: 194
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4943645207a097745880185084b3005a
+      internalID: 352733861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_20
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 865
+        width: 194
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e671c6597d5f1244bbef04f9cbccd1e1
+      internalID: -207412158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_21
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 848
+        width: 137
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f547e3e86c370469180022b0f2c20f
+      internalID: 1163755850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_22
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 725
+        width: 156
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350afb80c23d8b54696821b472ebaf0b
+      internalID: -1786889582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_23
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 737
+        width: 169
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa31f1ff561176468bf95e131f92f37
+      internalID: -1939672135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_24
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 54
+        width: 903
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbb8f22c6b5b9c45ad9111eb0ca660d
+      internalID: -476345748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tabuleiro_25
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 52
+        width: 149
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ab5b5cc17d4804a9880d191beeec7f
+      internalID: -154902560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 999e82bc07edd1449975aa8404efdc7a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChatGPT Image 24 de fev. de 2026, 11_56_29_0: -1409944093732662897
+      ChatGPT Image 24 de fev. de 2026, 11_56_29_1: 401950936901344125
+      ChatGPT Image 24 de fev. de 2026, 11_56_29_10: -6123568192613108703
+      ChatGPT Image 24 de fev. de 2026, 11_56_29_11: 1543970957542075597
+      ChatGPT Image 24 de fev. de 2026, 11_56_29_12: -1607977847811982164
+      ChatGPT Image 24 de fev. de 2026, 11_56_29_13: -5323885518629742278
+      ChatGPT Image 24 de fev. de 2026, 11_56_29_14: -2443788637252996708
+      ChatGPT Image 24 de fev. de 2026, 11_56_29_15: -5809130411401788343
+      ChatGPT Image 24 de fev. de 2026, 11_56_29_16: -2533840868262144819
+      ChatGPT Image 24 de fev. de 2026, 11_56_29_17: 1157589416325077601
+      ChatGPT Image 24 de fev. de 2026, 11_56_29_18: 3166393960468318059
+      ChatGPT Image 24 de fev. de 2026, 11_56_29_19: -6030959557120634133
+      ChatGPT Image 24 de fev. de 2026, 11_56_29_2: 7001067884836431020
+      ChatGPT Image 24 de fev. de 2026, 11_56_29_3: -6182632173643497792
+      ChatGPT Image 24 de fev. de 2026, 11_56_29_4: 1347872051840323449
+      ChatGPT Image 24 de fev. de 2026, 11_56_29_5: -91028757242348906
+      ChatGPT Image 24 de fev. de 2026, 11_56_29_6: -6797798492474684558
+      ChatGPT Image 24 de fev. de 2026, 11_56_29_7: 7785494596382066335
+      ChatGPT Image 24 de fev. de 2026, 11_56_29_8: 97267365483437265
+      ChatGPT Image 24 de fev. de 2026, 11_56_29_9: -1104389414726033957
+      tabuleiro_0: 1378452919
+      tabuleiro_1: -2020486549
+      tabuleiro_10: -1562249776
+      tabuleiro_11: 747966119
+      tabuleiro_12: 87322237
+      tabuleiro_13: -376535410
+      tabuleiro_14: -2108658839
+      tabuleiro_15: -1311094143
+      tabuleiro_16: 324983535
+      tabuleiro_17: 1113231804
+      tabuleiro_18: -837791189
+      tabuleiro_19: 352733861
+      tabuleiro_2: -143453756
+      tabuleiro_20: -207412158
+      tabuleiro_21: 1163755850
+      tabuleiro_22: -1786889582
+      tabuleiro_23: -1939672135
+      tabuleiro_24: -476345748
+      tabuleiro_25: -154902560
+      tabuleiro_3: -1763419453
+      tabuleiro_4: 1120469146
+      tabuleiro_5: 1708900261
+      tabuleiro_6: 1524555122
+      tabuleiro_7: -25543551
+      tabuleiro_8: -612034704
+      tabuleiro_9: -1335265128
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

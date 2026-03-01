@@ -1,0 +1,508 @@
+fileFormatVersion: 2
+guid: 503f09fa2dca2c8498607c5dc7ef638b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -349981469394129120
+    second: livros-aberto_0
+  - first:
+      213: -5056860761695955618
+    second: livros-aberto_1
+  - first:
+      213: 5019397280791490502
+    second: livros-aberto_2
+  - first:
+      213: -4688776283877044700
+    second: livros-aberto_3
+  - first:
+      213: -8785265392566582025
+    second: livros-aberto_4
+  - first:
+      213: 9032573059609164279
+    second: livros-aberto_5
+  - first:
+      213: -7545623186214642391
+    second: livros-aberto_6
+  - first:
+      213: -4756935666752535043
+    second: livros-aberto_7
+  - first:
+      213: -2073402586012783011
+    second: livros-aberto_8
+  - first:
+      213: 2984557259139368079
+    second: livros-aberto_9
+  - first:
+      213: -2683450771408614360
+    second: livros-aberto_10
+  - first:
+      213: 4891146769088393653
+    second: livros-aberto_11
+  - first:
+      213: 8497621318390789389
+    second: livros-aberto_12
+  - first:
+      213: 7242411995143048878
+    second: livros-aberto_13
+  - first:
+      213: -461071001196913265
+    second: livros-aberto_14
+  - first:
+      213: 7320717887075382591
+    second: livros-aberto_15
+  - first:
+      213: -8831504055130780368
+    second: livros-aberto_16
+  - first:
+      213: 1135913686102579627
+    second: livros-aberto_17
+  - first:
+      213: -2009323016316771035
+    second: livros-aberto_18
+  - first:
+      213: -7348199447922158447
+    second: livros-aberto_19
+  - first:
+      213: 6784461642129486956
+    second: livros-aberto_20
+  - first:
+      213: 3502489126293443773
+    second: livros-aberto_21
+  - first:
+      213: -7763322619549711233
+    second: livros-aberto_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: livros-aberto_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1023
+        width: 339
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf6324ab3b78a540800000000000000
+      internalID: 5019397280791490502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livros-aberto_3
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1235
+        width: 311
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e8b30efce1eeeb0800000000000000
+      internalID: -4688776283877044700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livros-aberto_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1037
+        width: 307
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4498afba7741680800000000000000
+      internalID: -8785265392566582025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livros-aberto_5
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1013
+        width: 331
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f974c157552a5d70800000000000000
+      internalID: 9032573059609164279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livros-aberto_8
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 819
+        width: 282
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ee458555bc933e0800000000000000
+      internalID: -2073402586012783011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livros-aberto_9
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 801
+        width: 229
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84c0daa3074b6920800000000000000
+      internalID: 2984557259139368079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livros-aberto_12
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 591
+        width: 253
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d053876119d9de570800000000000000
+      internalID: 8497621318390789389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livros-aberto_13
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 582
+        width: 248
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae878f6657328460800000000000000
+      internalID: 7242411995143048878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livros-aberto_16
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 319
+        width: 268
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d02896ad1307580800000000000000
+      internalID: -8831504055130780368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livros-aberto_17
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 333
+        width: 262
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba916abaa7393cf00800000000000000
+      internalID: 1135913686102579627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livros-aberto_20
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 118
+        width: 237
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64346bfaef372e50800000000000000
+      internalID: 6784461642129486956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livros-aberto_21
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 126
+        width: 133
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4936aad475b9030800000000000000
+      internalID: 3502489126293443773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: livros-aberto_22
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 130
+        width: 210
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f740cf89533234490800000000000000
+      internalID: -7763322619549711233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3da71b2f0d726734bb029ec7eb3039d1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      livros-aberto_0: -349981469394129120
+      livros-aberto_1: -5056860761695955618
+      livros-aberto_10: -2683450771408614360
+      livros-aberto_11: 4891146769088393653
+      livros-aberto_12: 8497621318390789389
+      livros-aberto_13: 7242411995143048878
+      livros-aberto_14: -461071001196913265
+      livros-aberto_15: 7320717887075382591
+      livros-aberto_16: -8831504055130780368
+      livros-aberto_17: 1135913686102579627
+      livros-aberto_18: -2009323016316771035
+      livros-aberto_19: -7348199447922158447
+      livros-aberto_2: 5019397280791490502
+      livros-aberto_20: 6784461642129486956
+      livros-aberto_21: 3502489126293443773
+      livros-aberto_22: -7763322619549711233
+      livros-aberto_3: -4688776283877044700
+      livros-aberto_4: -8785265392566582025
+      livros-aberto_5: 9032573059609164279
+      livros-aberto_6: -7545623186214642391
+      livros-aberto_7: -4756935666752535043
+      livros-aberto_8: -2073402586012783011
+      livros-aberto_9: 2984557259139368079
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

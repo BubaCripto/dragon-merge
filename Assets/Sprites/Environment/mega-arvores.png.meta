@@ -1,0 +1,944 @@
+fileFormatVersion: 2
+guid: 098443a28e802ca43be02f226e0d7347
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6962026865599296959
+    second: mega-arvores_0
+  - first:
+      213: 7638435436467489642
+    second: mega-arvores_1
+  - first:
+      213: -7875567485254935307
+    second: mega-arvores_2
+  - first:
+      213: 3255173620811366217
+    second: mega-arvores_3
+  - first:
+      213: -6391990851527997690
+    second: mega-arvores_4
+  - first:
+      213: -8702781246372060067
+    second: mega-arvores_5
+  - first:
+      213: -5427368437484963420
+    second: mega-arvores_6
+  - first:
+      213: -5753417958806706205
+    second: mega-arvores_7
+  - first:
+      213: -7464006537225631988
+    second: mega-arvores_8
+  - first:
+      213: -5084208136937765489
+    second: mega-arvores_9
+  - first:
+      213: -4628692361655819613
+    second: mega-arvores_10
+  - first:
+      213: -7780995169189938224
+    second: mega-arvores_11
+  - first:
+      213: 2386142154167314042
+    second: mega-arvores_12
+  - first:
+      213: 6943819144520076414
+    second: mega-arvores_13
+  - first:
+      213: 1539194249823462965
+    second: mega-arvores_14
+  - first:
+      213: -2661493341143647319
+    second: mega-arvores_15
+  - first:
+      213: 5471313611936788648
+    second: mega-arvores_16
+  - first:
+      213: 9107146105741785684
+    second: mega-arvores_17
+  - first:
+      213: -6355729265320438490
+    second: mega-arvores_18
+  - first:
+      213: -8920213288737375777
+    second: mega-arvores_19
+  - first:
+      213: 454569546805935139
+    second: mega-arvores_20
+  - first:
+      213: -3916516008054369484
+    second: mega-arvores_21
+  - first:
+      213: 203612191618369501
+    second: mega-arvores_22
+  - first:
+      213: -8546241322563450655
+    second: mega-arvores_23
+  - first:
+      213: 8222081156565771500
+    second: mega-arvores_24
+  - first:
+      213: 699715704913599860
+    second: mega-arvores_25
+  - first:
+      213: -4109652696926386922
+    second: mega-arvores_26
+  - first:
+      213: -8536712539249001794
+    second: mega-arvores_27
+  - first:
+      213: 6126082872774750489
+    second: mega-arvores_28
+  - first:
+      213: -9179926303156688269
+    second: mega-arvores_29
+  - first:
+      213: -8247521360415906941
+    second: mega-arvores_30
+  - first:
+      213: -9022903987091060647
+    second: mega-arvores_31
+  - first:
+      213: -2016744969405667949
+    second: mega-arvores_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mega-arvores_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1391
+        width: 183
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a4a3fb379e16f90800000000000000
+      internalID: -6962026865599296959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1390
+        width: 151
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b866e2f8c210a60800000000000000
+      internalID: 7638435436467489642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_2
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1385
+        width: 165
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc53c4491d54b290800000000000000
+      internalID: -7875567485254935307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_3
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1397
+        width: 114
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ffea65923bc2d20800000000000000
+      internalID: 3255173620811366217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_4
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1383
+        width: 166
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607802fcf261b47a0800000000000000
+      internalID: -6391990851527997690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_5
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1383
+        width: 211
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54ef04d092893780800000000000000
+      internalID: -8702781246372060067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1255
+        width: 180
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9ba8a592d1ea4b0800000000000000
+      internalID: -5427368437484963420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_7
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1255
+        width: 186
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e729f079d0c720b0800000000000000
+      internalID: -5753417958806706205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_8
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1261
+        width: 210
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c070973b9958a6890800000000000000
+      internalID: -7464006537225631988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_9
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1257
+        width: 157
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f858ca103a34179b0800000000000000
+      internalID: -5084208136937765489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_10
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1255
+        width: 234
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2e0f822d493cfb0800000000000000
+      internalID: -4628692361655819613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1141
+        width: 227
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db376d7e1a540490800000000000000
+      internalID: -7780995169189938224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_12
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1143
+        width: 207
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a766aba95a74d1120800000000000000
+      internalID: 2386142154167314042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_13
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1143
+        width: 167
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c0da5d8b66d5060800000000000000
+      internalID: 6943819144520076414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_14
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1143
+        width: 155
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5362d05e3015c5510800000000000000
+      internalID: 1539194249823462965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_15
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1137
+        width: 254
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abb01d48e9701bd0800000000000000
+      internalID: -2661493341143647319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 893
+        width: 211
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a07046edb20eeb40800000000000000
+      internalID: 5471313611936788648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_17
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 877
+        width: 168
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a3256a125136e70800000000000000
+      internalID: 9107146105741785684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_18
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 877
+        width: 227
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625550448e9ebc7a0800000000000000
+      internalID: -6355729265320438490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_21
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 606
+        width: 232
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433d9c6f07db5a9c0800000000000000
+      internalID: -3916516008054369484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_22
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 603
+        width: 183
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd70a51a53063d200800000000000000
+      internalID: 203612191618369501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_23
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 601
+        width: 297
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e847db0cc6a56980800000000000000
+      internalID: -8546241322563450655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_24
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 600
+        width: 303
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4298bdf33ba1270800000000000000
+      internalID: 8222081156565771500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 271
+        width: 349
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d1323f9b3e5b900800000000000000
+      internalID: 699715704913599860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_26
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 283
+        width: 334
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6150a7165a497f6c0800000000000000
+      internalID: -4109652696926386922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_27
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 279
+        width: 340
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebab07ccc21878980800000000000000
+      internalID: -8536712539249001794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 217
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911f7585ae7340550800000000000000
+      internalID: 6126082872774750489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_29
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 51
+        width: 136
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37aa4142aa95a9080800000000000000
+      internalID: -9179926303156688269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_30
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 48
+        width: 227
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383a6fa150bea8d80800000000000000
+      internalID: -8247521360415906941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_31
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 49
+        width: 224
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9584bfe01a438c280800000000000000
+      internalID: -9022903987091060647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mega-arvores_32
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 47
+        width: 225
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395e400b2251304e0800000000000000
+      internalID: -2016744969405667949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fac77220a75016b49bd3abcca572160f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mega-arvores_0: -6962026865599296959
+      mega-arvores_1: 7638435436467489642
+      mega-arvores_10: -4628692361655819613
+      mega-arvores_11: -7780995169189938224
+      mega-arvores_12: 2386142154167314042
+      mega-arvores_13: 6943819144520076414
+      mega-arvores_14: 1539194249823462965
+      mega-arvores_15: -2661493341143647319
+      mega-arvores_16: 5471313611936788648
+      mega-arvores_17: 9107146105741785684
+      mega-arvores_18: -6355729265320438490
+      mega-arvores_19: -8920213288737375777
+      mega-arvores_2: -7875567485254935307
+      mega-arvores_20: 454569546805935139
+      mega-arvores_21: -3916516008054369484
+      mega-arvores_22: 203612191618369501
+      mega-arvores_23: -8546241322563450655
+      mega-arvores_24: 8222081156565771500
+      mega-arvores_25: 699715704913599860
+      mega-arvores_26: -4109652696926386922
+      mega-arvores_27: -8536712539249001794
+      mega-arvores_28: 6126082872774750489
+      mega-arvores_29: -9179926303156688269
+      mega-arvores_3: 3255173620811366217
+      mega-arvores_30: -8247521360415906941
+      mega-arvores_31: -9022903987091060647
+      mega-arvores_32: -2016744969405667949
+      mega-arvores_4: -6391990851527997690
+      mega-arvores_5: -8702781246372060067
+      mega-arvores_6: -5427368437484963420
+      mega-arvores_7: -5753417958806706205
+      mega-arvores_8: -7464006537225631988
+      mega-arvores_9: -5084208136937765489
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

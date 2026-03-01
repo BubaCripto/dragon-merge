@@ -1,0 +1,462 @@
+fileFormatVersion: 2
+guid: d88f0c95199c01b47a7b99c1a6802186
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5162120001068764784
+    second: ovo_0
+  - first:
+      213: -3797746777475631196
+    second: ovo_1
+  - first:
+      213: 5193567449369809345
+    second: ovo_2
+  - first:
+      213: -4271540403951847790
+    second: ovo_3
+  - first:
+      213: -3909075070576672114
+    second: ovo_4
+  - first:
+      213: 2329418105966189098
+    second: ovo_5
+  - first:
+      213: -8069946623327874067
+    second: ovo_6
+  - first:
+      213: -3676728715787901940
+    second: ovo_7
+  - first:
+      213: 8622490441382064363
+    second: ovo_8
+  - first:
+      213: 5876297429979596065
+    second: ovo_9
+  - first:
+      213: -4079995510237221101
+    second: ovo_10
+  - first:
+      213: 8997613758801967645
+    second: ovo_11
+  - first:
+      213: 66946215463398070
+    second: ovo_12
+  - first:
+      213: -4399128545479797146
+    second: ovo_13
+  - first:
+      213: -5969221732457667530
+    second: ovo_14
+  - first:
+      213: 1059052505995479166
+    second: ovo_15
+  - first:
+      213: -7690600195273184786
+    second: ovo_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ovo_0
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 705
+        width: 280
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086403cca10acc442a4bf8c7b3670eef
+      internalID: -5162120001068764784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo_1
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 702
+        width: 306
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9470858662239fd4c93a892bffde9877
+      internalID: -3797746777475631196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo_2
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 703
+        width: 321
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119be796589331c4d92cdff7e532ebb4
+      internalID: 5193567449369809345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo_3
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 703
+        width: 316
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90964fbd0fe1cd43a882a51fd1f0eeb
+      internalID: -4271540403951847790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 440
+        width: 313
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a297875f71c5f4da3456738563f1c7
+      internalID: -3909075070576672114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo_5
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 441
+        width: 319
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e79854a4414c741add96b6703d216c
+      internalID: 2329418105966189098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo_6
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 440
+        width: 321
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f8ef666a8ea194990f0b0b495e4da6
+      internalID: -8069946623327874067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo_7
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 445
+        width: 308
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa239d91b165f814b959b0b5c077ef1f
+      internalID: -3676728715787901940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo_8
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 163
+        width: 302
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d5cff6596579d44906ece08dc9a324
+      internalID: 8622490441382064363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo_9
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 164
+        width: 316
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994acf3aca949304285388618b1e0eb9
+      internalID: 5876297429979596065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo_10
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 163
+        width: 332
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ab54d15b595644f9677a7bf805ce06
+      internalID: -4079995510237221101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo_11
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 161
+        width: 321
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1132eafa135849469a289f1f3e3210f
+      internalID: 8997613758801967645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4afff04b3ad0c834f8ff61f8e48d8a72
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ovo_0: -5162120001068764784
+      ovo_1: -3797746777475631196
+      ovo_10: -4079995510237221101
+      ovo_11: 8997613758801967645
+      ovo_12: 66946215463398070
+      ovo_13: -4399128545479797146
+      ovo_14: -5969221732457667530
+      ovo_15: 1059052505995479166
+      ovo_16: -7690600195273184786
+      ovo_2: 5193567449369809345
+      ovo_3: -4271540403951847790
+      ovo_4: -3909075070576672114
+      ovo_5: 2329418105966189098
+      ovo_6: -8069946623327874067
+      ovo_7: -3676728715787901940
+      ovo_8: 8622490441382064363
+      ovo_9: 5876297429979596065
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

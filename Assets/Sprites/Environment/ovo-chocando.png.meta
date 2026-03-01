@@ -1,0 +1,474 @@
+fileFormatVersion: 2
+guid: afe66d88c2bf6304a817e5f6422a1942
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5855282167240424278
+    second: ChatGPT Image 24 de fev. de 2026, 11_20_58_0
+  - first:
+      213: 3591048212741658861
+    second: ChatGPT Image 24 de fev. de 2026, 11_20_58_1
+  - first:
+      213: -67044290980333573
+    second: ChatGPT Image 24 de fev. de 2026, 11_20_58_2
+  - first:
+      213: -2316920687095616585
+    second: ChatGPT Image 24 de fev. de 2026, 11_20_58_3
+  - first:
+      213: -558590042277467100
+    second: ChatGPT Image 24 de fev. de 2026, 11_20_58_4
+  - first:
+      213: -4613619907482248446
+    second: ChatGPT Image 24 de fev. de 2026, 11_20_58_5
+  - first:
+      213: -10277103681980061
+    second: ChatGPT Image 24 de fev. de 2026, 11_20_58_6
+  - first:
+      213: 3869371549152877867
+    second: ChatGPT Image 24 de fev. de 2026, 11_20_58_7
+  - first:
+      213: 7260983795137976519
+    second: ChatGPT Image 24 de fev. de 2026, 11_20_58_8
+  - first:
+      213: -5934147189844063859
+    second: ChatGPT Image 24 de fev. de 2026, 11_20_58_9
+  - first:
+      213: -7402000991901907066
+    second: ChatGPT Image 24 de fev. de 2026, 11_20_58_10
+  - first:
+      213: -1196312507853268235
+    second: ChatGPT Image 24 de fev. de 2026, 11_20_58_11
+  - first:
+      213: -8233421653477504704
+    second: ChatGPT Image 24 de fev. de 2026, 11_20_58_12
+  - first:
+      213: 4973673006140625014
+    second: ChatGPT Image 24 de fev. de 2026, 11_20_58_13
+  - first:
+      213: -621645049089736540
+    second: ChatGPT Image 24 de fev. de 2026, 11_20_58_14
+  - first:
+      213: -6777033179900159681
+    second: ChatGPT Image 24 de fev. de 2026, 11_20_58_15
+  - first:
+      213: -7401970876992453453
+    second: ChatGPT Image 24 de fev. de 2026, 11_20_58_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ovo-chocando_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 688
+        width: 325
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64d777710ea19e48b8c4f35d940c375
+      internalID: 424516848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-chocando_1
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 688
+        width: 311
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6714a611cb237449d83e59eaeb2139
+      internalID: 1908084196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-chocando_2
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 700
+        width: 314
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81391b99c4b287544b5e15e177774310
+      internalID: -1689441177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-chocando_3
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 698
+        width: 306
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34413cdac027304783c400ea700411e
+      internalID: 46808842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-chocando_4
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 450
+        width: 329
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6062c2b35c68f7c4880a73a1af279f43
+      internalID: -2038932447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-chocando_5
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 448
+        width: 304
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607d2951713d5274ca8c3138a9cca0c1
+      internalID: 1960092559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-chocando_6
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 454
+        width: 321
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd29fa7844650414a8d4fd27dff4e890
+      internalID: 1753197676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-chocando_7
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 453
+        width: 314
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2706824e8c02143acf2f878fffbcca
+      internalID: -1596902274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-chocando_8
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 179
+        width: 293
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd3b41e783c19c4c912c5645a494170
+      internalID: 1550467585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-chocando_9
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 180
+        width: 322
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee599b83dbd51dc4c9ed3a721b584fa3
+      internalID: 38906406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-chocando_10
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 181
+        width: 334
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2c83da414829d498b7271a5eb1cc1e
+      internalID: 172532958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-chocando_11
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 173
+        width: 321
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655e41a30b25e774c8dae35e0fe5cc1a
+      internalID: -1846716382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5b56de0c6fa66604b831147ed420028d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChatGPT Image 24 de fev. de 2026, 11_20_58_0: 5855282167240424278
+      ChatGPT Image 24 de fev. de 2026, 11_20_58_1: 3591048212741658861
+      ChatGPT Image 24 de fev. de 2026, 11_20_58_10: -7402000991901907066
+      ChatGPT Image 24 de fev. de 2026, 11_20_58_11: -1196312507853268235
+      ChatGPT Image 24 de fev. de 2026, 11_20_58_12: -8233421653477504704
+      ChatGPT Image 24 de fev. de 2026, 11_20_58_13: 4973673006140625014
+      ChatGPT Image 24 de fev. de 2026, 11_20_58_14: -621645049089736540
+      ChatGPT Image 24 de fev. de 2026, 11_20_58_15: -6777033179900159681
+      ChatGPT Image 24 de fev. de 2026, 11_20_58_16: -7401970876992453453
+      ChatGPT Image 24 de fev. de 2026, 11_20_58_2: -67044290980333573
+      ChatGPT Image 24 de fev. de 2026, 11_20_58_3: -2316920687095616585
+      ChatGPT Image 24 de fev. de 2026, 11_20_58_4: -558590042277467100
+      ChatGPT Image 24 de fev. de 2026, 11_20_58_5: -4613619907482248446
+      ChatGPT Image 24 de fev. de 2026, 11_20_58_6: -10277103681980061
+      ChatGPT Image 24 de fev. de 2026, 11_20_58_7: 3869371549152877867
+      ChatGPT Image 24 de fev. de 2026, 11_20_58_8: 7260983795137976519
+      ChatGPT Image 24 de fev. de 2026, 11_20_58_9: -5934147189844063859
+      ovo-chocando_0: 424516848
+      ovo-chocando_1: 1908084196
+      ovo-chocando_10: 172532958
+      ovo-chocando_11: -1846716382
+      ovo-chocando_2: -1689441177
+      ovo-chocando_3: 46808842
+      ovo-chocando_4: -2038932447
+      ovo-chocando_5: 1960092559
+      ovo-chocando_6: 1753197676
+      ovo-chocando_7: -1596902274
+      ovo-chocando_8: 1550467585
+      ovo-chocando_9: 38906406
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

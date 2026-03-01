@@ -1,0 +1,924 @@
+fileFormatVersion: 2
+guid: 16563cf2301addf4ab3e4f3757f2d459
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1316380323425261950
+    second: nuvens_0
+  - first:
+      213: 2163987122471163605
+    second: nuvens_1
+  - first:
+      213: 1852885273896361816
+    second: nuvens_2
+  - first:
+      213: -5538410889641567080
+    second: nuvens_3
+  - first:
+      213: 8589220182505035194
+    second: nuvens_4
+  - first:
+      213: 1665612082666667144
+    second: nuvens_5
+  - first:
+      213: -3419268613648605276
+    second: nuvens_6
+  - first:
+      213: -3022403587141847371
+    second: nuvens_7
+  - first:
+      213: 6667124203383916991
+    second: nuvens_8
+  - first:
+      213: -5048973802158549352
+    second: nuvens_9
+  - first:
+      213: -599463437650824528
+    second: nuvens_10
+  - first:
+      213: 8717190446498188617
+    second: nuvens_11
+  - first:
+      213: 6460893389875508610
+    second: nuvens_12
+  - first:
+      213: 8669570090286051049
+    second: nuvens_13
+  - first:
+      213: 8269964312793820000
+    second: nuvens_14
+  - first:
+      213: -7826784995900564867
+    second: nuvens_15
+  - first:
+      213: 2773422181405910000
+    second: nuvens_16
+  - first:
+      213: -362941577196299014
+    second: nuvens_17
+  - first:
+      213: -7102544463047773218
+    second: nuvens_18
+  - first:
+      213: 5121502012115285353
+    second: nuvens_19
+  - first:
+      213: 5652671168824796335
+    second: nuvens_20
+  - first:
+      213: -9148967542521448893
+    second: nuvens_21
+  - first:
+      213: 1775664554088368109
+    second: nuvens_22
+  - first:
+      213: -3600469636512177175
+    second: nuvens_23
+  - first:
+      213: 5073772142751437907
+    second: nuvens_24
+  - first:
+      213: -25957033343675467
+    second: nuvens_25
+  - first:
+      213: 760535210753369245
+    second: nuvens_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nuvens_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1351
+        width: 641
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79931ffde8b44210800000000000000
+      internalID: 1316380323425261950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1351
+        width: 377
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6d96592d6080e10800000000000000
+      internalID: 2163987122471163605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_2
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 715
+        width: 499
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f1520f655c6b910800000000000000
+      internalID: 1852885273896361816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_3
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 448
+        width: 284
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c52ceb3ac9323b0800000000000000
+      internalID: -5538410889641567080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_4
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1079
+        width: 338
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab514d39f3a033770800000000000000
+      internalID: 8589220182505035194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_5
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1086
+        width: 640
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88cf1f84d517d1710800000000000000
+      internalID: 1665612082666667144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 960
+        width: 381
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af15dbdf415c80d0800000000000000
+      internalID: -3419268613648605276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_7
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 968
+        width: 611
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b63b8c63f34e06d0800000000000000
+      internalID: -3022403587141847371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_8
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 839
+        width: 227
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb98b189322668c50800000000000000
+      internalID: 6667124203383916991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_9
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 831
+        width: 297
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896161ad3117ee9b0800000000000000
+      internalID: -5048973802158549352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_10
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 720
+        width: 248
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2fcf6fd274ea7f0800000000000000
+      internalID: -599463437650824528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_11
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 716
+        width: 248
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d04f2868ea9f870800000000000000
+      internalID: 8717190446498188617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_12
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 590
+        width: 394
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285f23b8e44b9a950800000000000000
+      internalID: 6460893389875508610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_13
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 590
+        width: 196
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eee9d25010805870800000000000000
+      internalID: 8669570090286051049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_14
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 590
+        width: 261
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06bab31f9b0d4c270800000000000000
+      internalID: 8269964312793820000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_15
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 615
+        width: 146
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a5df9a38ca16390800000000000000
+      internalID: -7826784995900564867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 444
+        width: 401
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f363ee97cc2d7620800000000000000
+      internalID: 2773422181405910000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_17
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 444
+        width: 271
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc9ef8fe8296faf0800000000000000
+      internalID: -362941577196299014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 319
+        width: 402
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3be961171be6d90800000000000000
+      internalID: -7102544463047773218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_19
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 341
+        width: 286
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9657494f1fa331740800000000000000
+      internalID: 5121502012115285353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_20
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 319
+        width: 281
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4e4e99a72527e40800000000000000
+      internalID: 5652671168824796335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_21
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 214
+        width: 167
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3463e6e4e76580180800000000000000
+      internalID: -9148967542521448893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_22
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 194
+        width: 303
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de780ba018d64a810800000000000000
+      internalID: 1775664554088368109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_23
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 200
+        width: 226
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3ac1311ff880ec0800000000000000
+      internalID: -3600469636512177175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 417
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354d8ffb1e8a96640800000000000000
+      internalID: 5073772142751437907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_25
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 31
+        width: 157
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b390283738c3aff0800000000000000
+      internalID: -25957033343675467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_26
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 46
+        width: 245
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94a124aeb6fd8a00800000000000000
+      internalID: 760535210753369245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_27
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 34
+        width: 196
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06808434aa4dbd44984badb4dd2c9ced
+      internalID: 49752210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_28
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 844
+        width: 240
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e528e42d469c44090747720d6e574c
+      internalID: -1362588558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_29
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 830
+        width: 214
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3124ca36e84167544bdfbd5cdf3f05b0
+      internalID: 83867424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuvens_30
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 204
+        width: 228
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182a1de8ff223554dbbe1a9e1a1351ef
+      internalID: 1054440106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 494f3192652f2f042b89de84b867d74e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      nuvens_0: 1316380323425261950
+      nuvens_1: 2163987122471163605
+      nuvens_10: -599463437650824528
+      nuvens_11: 8717190446498188617
+      nuvens_12: 6460893389875508610
+      nuvens_13: 8669570090286051049
+      nuvens_14: 8269964312793820000
+      nuvens_15: -7826784995900564867
+      nuvens_16: 2773422181405910000
+      nuvens_17: -362941577196299014
+      nuvens_18: -7102544463047773218
+      nuvens_19: 5121502012115285353
+      nuvens_2: 1852885273896361816
+      nuvens_20: 5652671168824796335
+      nuvens_21: -9148967542521448893
+      nuvens_22: 1775664554088368109
+      nuvens_23: -3600469636512177175
+      nuvens_24: 5073772142751437907
+      nuvens_25: -25957033343675467
+      nuvens_26: 760535210753369245
+      nuvens_27: 49752210
+      nuvens_28: -1362588558
+      nuvens_29: 83867424
+      nuvens_3: -5538410889641567080
+      nuvens_30: 1054440106
+      nuvens_4: 8589220182505035194
+      nuvens_5: 1665612082666667144
+      nuvens_6: -3419268613648605276
+      nuvens_7: -3022403587141847371
+      nuvens_8: 6667124203383916991
+      nuvens_9: -5048973802158549352
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

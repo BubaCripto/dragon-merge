@@ -1,0 +1,814 @@
+fileFormatVersion: 2
+guid: b987c1f93946f9b4292eeebae7075c5e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2631068830186721649
+    second: baus_0
+  - first:
+      213: 15942406651839995
+    second: baus_1
+  - first:
+      213: -8568411496023485439
+    second: baus_2
+  - first:
+      213: 8920371243176557498
+    second: baus_3
+  - first:
+      213: -107458520977549831
+    second: baus_4
+  - first:
+      213: 6227705686169882412
+    second: baus_5
+  - first:
+      213: 504953204280713497
+    second: baus_6
+  - first:
+      213: -7103756994581362292
+    second: baus_7
+  - first:
+      213: -6352329509793916971
+    second: baus_8
+  - first:
+      213: 8265916492250221750
+    second: baus_9
+  - first:
+      213: 3059447198483926725
+    second: baus_10
+  - first:
+      213: 5812340716700236421
+    second: baus_11
+  - first:
+      213: 4661308588766536798
+    second: baus_12
+  - first:
+      213: 8950172440444172312
+    second: baus_13
+  - first:
+      213: -312302036320554911
+    second: baus_14
+  - first:
+      213: -7678467919132198417
+    second: baus_15
+  - first:
+      213: 7383275578247014395
+    second: baus_16
+  - first:
+      213: -5514194594510495951
+    second: baus_17
+  - first:
+      213: -8276177554163803867
+    second: baus_18
+  - first:
+      213: -2546496497448143912
+    second: baus_19
+  - first:
+      213: -3440246357157703953
+    second: baus_20
+  - first:
+      213: 554526189133677237
+    second: baus_21
+  - first:
+      213: 6141895031537307569
+    second: baus_22
+  - first:
+      213: -3891417837105159706
+    second: baus_23
+  - first:
+      213: 4749044534398182343
+    second: baus_24
+  - first:
+      213: -2684646471145072285
+    second: baus_25
+  - first:
+      213: -97089706269477037
+    second: baus_26
+  - first:
+      213: 7121021930074228177
+    second: baus_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: baus_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1349
+        width: 200
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171d1ea392f638420800000000000000
+      internalID: 2631068830186721649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_1
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1349
+        width: 203
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5095dc883a83000800000000000000
+      internalID: 15942406651839995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_2
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1351
+        width: 190
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104952a4423e61980800000000000000
+      internalID: -8568411496023485439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_3
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1129
+        width: 203
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abbf52e22668bcb70800000000000000
+      internalID: 8920371243176557498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_4
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1351
+        width: 182
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f55b056b0b328ef0800000000000000
+      internalID: -107458520977549831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_5
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1132
+        width: 308
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f06d563514d6650800000000000000
+      internalID: 6227705686169882412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_6
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1353
+        width: 175
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911e8519344f10700800000000000000
+      internalID: 504953204280713497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_7
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1132
+        width: 216
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89084796a26a6d90800000000000000
+      internalID: -7103756994581362292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_8
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1133
+        width: 223
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7908887fdf7d7a0800000000000000
+      internalID: -6352329509793916971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 960
+        width: 202
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc0e97414f66b270800000000000000
+      internalID: 8265916492250221750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_10
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 963
+        width: 207
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cec2b27407557a20800000000000000
+      internalID: 3059447198483926725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_11
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 963
+        width: 209
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58af474361599a050800000000000000
+      internalID: 5812340716700236421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_12
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 967
+        width: 257
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5428edf67b40b040800000000000000
+      internalID: 4661308588766536798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 773
+        width: 279
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8187a2f1a66653c70800000000000000
+      internalID: 8950172440444172312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 773
+        width: 251
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1607b7ed3fa7aabf0800000000000000
+      internalID: -312302036320554911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_15
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 538
+        width: 314
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe974ec1c1a907590800000000000000
+      internalID: -7678467919132198417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_16
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 773
+        width: 216
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7ea38250aa67660800000000000000
+      internalID: 7383275578247014395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_17
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 780
+        width: 239
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f92d35b35a973b0800000000000000
+      internalID: -5514194594510495951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_18
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 535
+        width: 308
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52951021d5c152d80800000000000000
+      internalID: -8276177554163803867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_19
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 535
+        width: 313
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3b3df6de609acd0800000000000000
+      internalID: -2546496497448143912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_20
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 272
+        width: 339
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee88c55a2ac140d0800000000000000
+      internalID: -3440246357157703953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_21
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 279
+        width: 327
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2c6f981a212b700800000000000000
+      internalID: 554526189133677237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_23
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 274
+        width: 309
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e16ab24818eef9c0800000000000000
+      internalID: -3891417837105159706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 342
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3605fa7def7e140800000000000000
+      internalID: 4749044534398182343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_25
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 35
+        width: 343
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36954e322483ebad0800000000000000
+      internalID: -2684646471145072285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: baus_26
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 36
+        width: 308
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357f5723d6117aef0800000000000000
+      internalID: -97089706269477037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d99e09b9c47bab646b6c57029f7d4a05
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      baus_0: 2631068830186721649
+      baus_1: 15942406651839995
+      baus_10: 3059447198483926725
+      baus_11: 5812340716700236421
+      baus_12: 4661308588766536798
+      baus_13: 8950172440444172312
+      baus_14: -312302036320554911
+      baus_15: -7678467919132198417
+      baus_16: 7383275578247014395
+      baus_17: -5514194594510495951
+      baus_18: -8276177554163803867
+      baus_19: -2546496497448143912
+      baus_2: -8568411496023485439
+      baus_20: -3440246357157703953
+      baus_21: 554526189133677237
+      baus_22: 6141895031537307569
+      baus_23: -3891417837105159706
+      baus_24: 4749044534398182343
+      baus_25: -2684646471145072285
+      baus_26: -97089706269477037
+      baus_27: 7121021930074228177
+      baus_3: 8920371243176557498
+      baus_4: -107458520977549831
+      baus_5: 6227705686169882412
+      baus_6: 504953204280713497
+      baus_7: -7103756994581362292
+      baus_8: -6352329509793916971
+      baus_9: 8265916492250221750
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

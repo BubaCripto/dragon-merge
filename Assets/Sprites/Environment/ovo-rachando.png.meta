@@ -1,0 +1,458 @@
+fileFormatVersion: 2
+guid: 6f29fba21b3c02342853b38b8e3386d0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6959325392881390459
+    second: ovo-rachando_0
+  - first:
+      213: -6711844691033400168
+    second: ovo-rachando_1
+  - first:
+      213: 7147673842872710133
+    second: ovo-rachando_2
+  - first:
+      213: 2571626679027191798
+    second: ovo-rachando_3
+  - first:
+      213: -8521384561155399242
+    second: ovo-rachando_4
+  - first:
+      213: 326116275616622520
+    second: ovo-rachando_5
+  - first:
+      213: 1897040331164507086
+    second: ovo-rachando_6
+  - first:
+      213: 6052068462434887258
+    second: ovo-rachando_7
+  - first:
+      213: -8511127807791320886
+    second: ovo-rachando_8
+  - first:
+      213: 7794280206896443819
+    second: ovo-rachando_9
+  - first:
+      213: 3452530174705389568
+    second: ovo-rachando_10
+  - first:
+      213: 7901738393690899742
+    second: ovo-rachando_11
+  - first:
+      213: -3988356078419432681
+    second: ovo-rachando_12
+  - first:
+      213: 1364802212479771833
+    second: ovo-rachando_13
+  - first:
+      213: -2384598808586383629
+    second: ovo-rachando_14
+  - first:
+      213: -1575409535914809504
+    second: ovo-rachando_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ovo-rachando_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 715
+        width: 320
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ce2f06d628b6f90800000000000000
+      internalID: -6959325392881390459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-rachando_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 465
+        width: 316
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89cdc5b70dcbad2a0800000000000000
+      internalID: -6711844691033400168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-rachando_2
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 714
+        width: 315
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f377c67d73a13360800000000000000
+      internalID: 7147673842872710133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-rachando_3
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 458
+        width: 345
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff455ae6d040b320800000000000000
+      internalID: 2571626679027191798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-rachando_4
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 713
+        width: 333
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1a5ddc3e5fdb980800000000000000
+      internalID: -8521384561155399242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-rachando_5
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 460
+        width: 324
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b72a9b5609968400800000000000000
+      internalID: 326116275616622520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-rachando_6
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 718
+        width: 341
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb56a75124a35a10800000000000000
+      internalID: 1897040331164507086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-rachando_7
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 457
+        width: 327
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56a6cb83344df350800000000000000
+      internalID: 6052068462434887258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-rachando_11
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 196
+        width: 342
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e150300343d98ad60800000000000000
+      internalID: 7901738393690899742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-rachando_13
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 199
+        width: 324
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b426879160c0f210800000000000000
+      internalID: 1364802212479771833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-rachando_14
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 198
+        width: 339
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe836a840438eed0800000000000000
+      internalID: -2384598808586383629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ovo-rachando_15
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 208
+        width: 335
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067e80cbf55032ae0800000000000000
+      internalID: -1575409535914809504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e5ec55bd5c0fc6b499c736eba733ceae
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ovo-rachando_0: -6959325392881390459
+      ovo-rachando_1: -6711844691033400168
+      ovo-rachando_10: 3452530174705389568
+      ovo-rachando_11: 7901738393690899742
+      ovo-rachando_12: -3988356078419432681
+      ovo-rachando_13: 1364802212479771833
+      ovo-rachando_14: -2384598808586383629
+      ovo-rachando_15: -1575409535914809504
+      ovo-rachando_2: 7147673842872710133
+      ovo-rachando_3: 2571626679027191798
+      ovo-rachando_4: -8521384561155399242
+      ovo-rachando_5: 326116275616622520
+      ovo-rachando_6: 1897040331164507086
+      ovo-rachando_7: 6052068462434887258
+      ovo-rachando_8: -8511127807791320886
+      ovo-rachando_9: 7794280206896443819
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

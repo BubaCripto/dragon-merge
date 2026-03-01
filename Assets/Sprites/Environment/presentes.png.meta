@@ -1,0 +1,658 @@
+fileFormatVersion: 2
+guid: fa5347c180578c14088645d9b9a10c2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7965649775747438361
+    second: ChatGPT Image 24 de fev. de 2026, 11_51_03_0
+  - first:
+      213: 6720134834677445938
+    second: ChatGPT Image 24 de fev. de 2026, 11_51_03_1
+  - first:
+      213: -6562587013225330494
+    second: ChatGPT Image 24 de fev. de 2026, 11_51_03_2
+  - first:
+      213: 3006746121427905176
+    second: ChatGPT Image 24 de fev. de 2026, 11_51_03_3
+  - first:
+      213: 8960251716758513146
+    second: ChatGPT Image 24 de fev. de 2026, 11_51_03_4
+  - first:
+      213: -5791335558785076496
+    second: ChatGPT Image 24 de fev. de 2026, 11_51_03_5
+  - first:
+      213: 4918851839473694716
+    second: ChatGPT Image 24 de fev. de 2026, 11_51_03_6
+  - first:
+      213: 8971356837923843131
+    second: ChatGPT Image 24 de fev. de 2026, 11_51_03_7
+  - first:
+      213: 8423278996248275661
+    second: ChatGPT Image 24 de fev. de 2026, 11_51_03_8
+  - first:
+      213: 6314984956600277118
+    second: ChatGPT Image 24 de fev. de 2026, 11_51_03_9
+  - first:
+      213: 8815103465321209082
+    second: ChatGPT Image 24 de fev. de 2026, 11_51_03_10
+  - first:
+      213: 3341929258807840125
+    second: ChatGPT Image 24 de fev. de 2026, 11_51_03_11
+  - first:
+      213: 8198476107624034679
+    second: ChatGPT Image 24 de fev. de 2026, 11_51_03_12
+  - first:
+      213: -7621161867544191991
+    second: ChatGPT Image 24 de fev. de 2026, 11_51_03_13
+  - first:
+      213: -3654546586286092976
+    second: ChatGPT Image 24 de fev. de 2026, 11_51_03_14
+  - first:
+      213: -8941248703177206025
+    second: ChatGPT Image 24 de fev. de 2026, 11_51_03_15
+  - first:
+      213: 7838008472739949771
+    second: ChatGPT Image 24 de fev. de 2026, 11_51_03_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: presentes_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 772
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f4c35a7191020428455f92bf1e5633
+      internalID: -1066593399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: presentes_1
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 773
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d001ed27e8148e34f9b9a3b7725f12bb
+      internalID: 1724859955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: presentes_2
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 774
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447a4b70322b4f14a8c9d4a30722dbf9
+      internalID: 390728733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: presentes_3
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 775
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa21862215c5bc04088ba9856dbb80fc
+      internalID: -107573187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: presentes_4
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 777
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d9275ff272159498162b224cba1ed9
+      internalID: -1074160039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: presentes_5
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 534
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e688a7cf2c50d714ebcbbb682a4fdcf9
+      internalID: 617419792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: presentes_6
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 533
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855179c3896964942803649c81f1461f
+      internalID: -811095198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: presentes_7
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 529
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92688a3eabc54f408f0ac2cd0b6a680
+      internalID: -1969894252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: presentes_8
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 533
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5069d7d5ed9ee44418947ce60f5b2b8e
+      internalID: -1780263270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: presentes_9
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 530
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59ba493c379fe94ea2e73178d1e1676
+      internalID: -464798272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: presentes_10
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 300
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c519b690643324c80d2151fc19bd6c
+      internalID: 1592686257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: presentes_11
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 297
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d27c60172871a5489e0f260ef455973
+      internalID: -973115708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: presentes_12
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 298
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d6c8f3a91aff24682f9f9405fff469
+      internalID: -1656611534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: presentes_13
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 297
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa30ffdc61f2b3f48939798dd1d161cc
+      internalID: -677567672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: presentes_14
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 297
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2ad8434653e4c4b80b3bca2622b07f
+      internalID: 1817052991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: presentes_15
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 74
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945ec3f806dd9de48ae9931b4b74eb68
+      internalID: 1708274705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: presentes_16
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 72
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc6e81e27c624543ab34a2e45656704
+      internalID: 676732719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: presentes_17
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 70
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68968ff1b51c2d249b961627cf3b4c7b
+      internalID: -1584381324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: presentes_18
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 71
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf29591e400d3e458f8d27eca656f6d
+      internalID: 93569556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: presentes_19
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 71
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f734b03a8630c0346a1419282b45df7b
+      internalID: -942165097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 98fac7160cd35b943928d5b3ffb58e20
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChatGPT Image 24 de fev. de 2026, 11_51_03_0: -7965649775747438361
+      ChatGPT Image 24 de fev. de 2026, 11_51_03_1: 6720134834677445938
+      ChatGPT Image 24 de fev. de 2026, 11_51_03_10: 8815103465321209082
+      ChatGPT Image 24 de fev. de 2026, 11_51_03_11: 3341929258807840125
+      ChatGPT Image 24 de fev. de 2026, 11_51_03_12: 8198476107624034679
+      ChatGPT Image 24 de fev. de 2026, 11_51_03_13: -7621161867544191991
+      ChatGPT Image 24 de fev. de 2026, 11_51_03_14: -3654546586286092976
+      ChatGPT Image 24 de fev. de 2026, 11_51_03_15: -8941248703177206025
+      ChatGPT Image 24 de fev. de 2026, 11_51_03_16: 7838008472739949771
+      ChatGPT Image 24 de fev. de 2026, 11_51_03_2: -6562587013225330494
+      ChatGPT Image 24 de fev. de 2026, 11_51_03_3: 3006746121427905176
+      ChatGPT Image 24 de fev. de 2026, 11_51_03_4: 8960251716758513146
+      ChatGPT Image 24 de fev. de 2026, 11_51_03_5: -5791335558785076496
+      ChatGPT Image 24 de fev. de 2026, 11_51_03_6: 4918851839473694716
+      ChatGPT Image 24 de fev. de 2026, 11_51_03_7: 8971356837923843131
+      ChatGPT Image 24 de fev. de 2026, 11_51_03_8: 8423278996248275661
+      ChatGPT Image 24 de fev. de 2026, 11_51_03_9: 6314984956600277118
+      presentes_0: -1066593399
+      presentes_1: 1724859955
+      presentes_10: 1592686257
+      presentes_11: -973115708
+      presentes_12: -1656611534
+      presentes_13: -677567672
+      presentes_14: 1817052991
+      presentes_15: 1708274705
+      presentes_16: 676732719
+      presentes_17: -1584381324
+      presentes_18: 93569556
+      presentes_19: -942165097
+      presentes_2: 390728733
+      presentes_3: -107573187
+      presentes_4: -1074160039
+      presentes_5: 617419792
+      presentes_6: -811095198
+      presentes_7: -1969894252
+      presentes_8: -1780263270
+      presentes_9: -464798272
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,539 @@
+fileFormatVersion: 2
+guid: c43f393e3bc111a43b0fb60c6f97f90a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3637460865819747938
+    second: ChatGPT Image 24 de fev. de 2026, 16_20_22_0
+  - first:
+      213: -3485865996379458614
+    second: ChatGPT Image 24 de fev. de 2026, 16_20_22_1
+  - first:
+      213: -4554172796453509262
+    second: ChatGPT Image 24 de fev. de 2026, 16_20_22_2
+  - first:
+      213: -7086237108076003479
+    second: ChatGPT Image 24 de fev. de 2026, 16_20_22_3
+  - first:
+      213: -7819095827074227041
+    second: ChatGPT Image 24 de fev. de 2026, 16_20_22_4
+  - first:
+      213: -61197170654636959
+    second: ChatGPT Image 24 de fev. de 2026, 16_20_22_5
+  - first:
+      213: -8519944160430862831
+    second: ChatGPT Image 24 de fev. de 2026, 16_20_22_6
+  - first:
+      213: 6338932254862471050
+    second: ChatGPT Image 24 de fev. de 2026, 16_20_22_7
+  - first:
+      213: -329617191486573319
+    second: ChatGPT Image 24 de fev. de 2026, 16_20_22_8
+  - first:
+      213: 8494828641199142169
+    second: ChatGPT Image 24 de fev. de 2026, 16_20_22_9
+  - first:
+      213: -3659195112377685383
+    second: ChatGPT Image 24 de fev. de 2026, 16_20_22_10
+  - first:
+      213: 9112963831736418184
+    second: ChatGPT Image 24 de fev. de 2026, 16_20_22_11
+  - first:
+      213: -3115858598917512175
+    second: ChatGPT Image 24 de fev. de 2026, 16_20_22_12
+  - first:
+      213: 1650870087338704322
+    second: ChatGPT Image 24 de fev. de 2026, 16_20_22_13
+  - first:
+      213: 7149458708448157732
+    second: ChatGPT Image 24 de fev. de 2026, 16_20_22_14
+  - first:
+      213: 2631434396557008333
+    second: ChatGPT Image 24 de fev. de 2026, 16_20_22_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cachoeira_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1239
+        width: 239
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be63341c61ae6b4faaa6d0c4e485e73
+      internalID: -242688850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cachoeira_1
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1235
+        width: 282
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43de6eeb1e314042bad1912acb1c10c
+      internalID: 406038623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cachoeira_2
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1234
+        width: 447
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f8d86266cb93f4d9b47bee737a0ea6
+      internalID: 1230459681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cachoeira_3
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 950
+        width: 294
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c0d9379cc7a8a4ca5686fb47ba1247
+      internalID: -1257471016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cachoeira_4
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 953
+        width: 377
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca10b6a397d732b4ab0cce0b61253470
+      internalID: -323305367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cachoeira_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 951
+        width: 303
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459bfcd2d6571ed46a870b1acc63fd09
+      internalID: -666117413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cachoeira_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 666
+        width: 305
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077c506a66b05c646adbd0b6a20a1de8
+      internalID: 290905394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cachoeira_7
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 664
+        width: 379
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c283909524a3ea4e8016ddf292d617d
+      internalID: -542566415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cachoeira_8
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 668
+        width: 296
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9c0fbddda01284089f0dcc7f3d2054
+      internalID: 840591366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cachoeira_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 391
+        width: 307
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d62a80e3e5ece94bb93be728c39050e
+      internalID: -2062686795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cachoeira_10
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 415
+        width: 371
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c16c6d9caab2274f93bdbba038185c2
+      internalID: -1070858485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cachoeira_11
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 316
+        width: 311
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b2e17a0966ebe4197850db7f65b8aa
+      internalID: -1376825679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cachoeira_12
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 136
+        width: 264
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733a828e8ce6dfc4994ca0c94fc34a19
+      internalID: -708706478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cachoeira_13
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 129
+        width: 410
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520a0edca78bc7841b13a45f3abb5161
+      internalID: -1466827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cachoeira_14
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 135
+        width: 256
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82592781d66ebb46804735df9b1f8bf
+      internalID: -1357916957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 237bd9896a583f046ab6dd9119a4ad8c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChatGPT Image 24 de fev. de 2026, 16_20_22_0: 3637460865819747938
+      ChatGPT Image 24 de fev. de 2026, 16_20_22_1: -3485865996379458614
+      ChatGPT Image 24 de fev. de 2026, 16_20_22_10: -3659195112377685383
+      ChatGPT Image 24 de fev. de 2026, 16_20_22_11: 9112963831736418184
+      ChatGPT Image 24 de fev. de 2026, 16_20_22_12: -3115858598917512175
+      ChatGPT Image 24 de fev. de 2026, 16_20_22_13: 1650870087338704322
+      ChatGPT Image 24 de fev. de 2026, 16_20_22_14: 7149458708448157732
+      ChatGPT Image 24 de fev. de 2026, 16_20_22_15: 2631434396557008333
+      ChatGPT Image 24 de fev. de 2026, 16_20_22_2: -4554172796453509262
+      ChatGPT Image 24 de fev. de 2026, 16_20_22_3: -7086237108076003479
+      ChatGPT Image 24 de fev. de 2026, 16_20_22_4: -7819095827074227041
+      ChatGPT Image 24 de fev. de 2026, 16_20_22_5: -61197170654636959
+      ChatGPT Image 24 de fev. de 2026, 16_20_22_6: -8519944160430862831
+      ChatGPT Image 24 de fev. de 2026, 16_20_22_7: 6338932254862471050
+      ChatGPT Image 24 de fev. de 2026, 16_20_22_8: -329617191486573319
+      ChatGPT Image 24 de fev. de 2026, 16_20_22_9: 8494828641199142169
+      cachoeira_0: -242688850
+      cachoeira_1: 406038623
+      cachoeira_10: -1070858485
+      cachoeira_11: -1376825679
+      cachoeira_12: -708706478
+      cachoeira_13: -1466827
+      cachoeira_14: -1357916957
+      cachoeira_2: 1230459681
+      cachoeira_3: -1257471016
+      cachoeira_4: -323305367
+      cachoeira_5: -666117413
+      cachoeira_6: 290905394
+      cachoeira_7: -542566415
+      cachoeira_8: 840591366
+      cachoeira_9: -2062686795
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
