@@ -211,7 +211,14 @@ namespace DragonMerge.Board
             if (spriteSize.x <= 0f || spriteSize.y <= 0f) return;
 
             float scale = cellTarget / Mathf.Max(spriteSize.x, spriteSize.y);
-            item.transform.localScale = Vector3.one * scale;
+            Vector3 finalScale = Vector3.one * scale;
+            
+            item.transform.localScale = finalScale;
+            
+            if (item.Animator != null)
+            {
+                item.Animator.UpdateBaseScale(finalScale);
+            }
         }
 
         public Sprite GetSprite(ItemTier tier, ItemColor color)

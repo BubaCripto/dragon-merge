@@ -36,11 +36,14 @@ namespace DragonMerge.Items
         public int Y { get; private set; }
         public ItemTier Tier { get; private set; }
         public ItemColor Color { get; private set; }
+        public DragonMerge.Scripts.VFX.ItemAnimator Animator { get; private set; }
 
         private void Awake()
         {
             if (spriteRenderer == null)
                 spriteRenderer = GetComponent<SpriteRenderer>();
+                
+            Animator = gameObject.AddComponent<DragonMerge.Scripts.VFX.ItemAnimator>();
         }
 
         public void SetGridPosition(int x, int y)
@@ -92,6 +95,12 @@ namespace DragonMerge.Items
             }
 
             transform.position = target;
+            
+            // Toca a animação de mola / gelatina quando finaliza a queda
+            if (Animator != null)
+            {
+                Animator.AnimateDropBounce();
+            }
         }
     }
 }
