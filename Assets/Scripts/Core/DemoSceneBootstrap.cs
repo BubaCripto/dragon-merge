@@ -11,7 +11,7 @@ namespace DragonMerge.Core
         [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
         private static void Bootstrap()
         {
-            if (FindObjectOfType<BoardManager>() != null) return;
+            if (Object.FindFirstObjectByType<BoardManager>() != null) return;
 
             var camera = Camera.main;
             if (camera == null)
@@ -25,6 +25,10 @@ namespace DragonMerge.Core
             camera.orthographic = true;
             camera.orthographicSize = 6.8f;
             camera.transform.position = new Vector3(2f, 3.5f, -10f);
+            
+            // Adiciona o script de responsividade garantindo que o tabuleiro nunca seja cortado nas laterais em celulares
+            if (camera.GetComponent<MobileCameraFitter>() == null)
+                camera.gameObject.AddComponent<MobileCameraFitter>();
 
             CreateBackground("Assets/Sprites/Environment/ceu-cenario.png", -8, 0.0f);
             CreateBackground("Assets/Sprites/Environment/cachoeira.png", -7, 0.2f);
@@ -79,10 +83,54 @@ namespace DragonMerge.Core
         private static Sprite LoadSprite(string path)
         {
 #if UNITY_EDITOR
-            return UnityEditor.AssetDatabase.LoadAssetAtPath<Sprite>(path);
+            var sprite = UnityEditor.AssetDatabase.LoadAssetAtPath<Sprite>(path);
+            if (sprite != null) return sprite;
+            
+            var allAssets = UnityEditor.AssetDatabase.LoadAllAssetsAtPath(path);
+            foreach (var asset in allAssets)
+            {
+                if (asset is Sprite s) return s;
+            }
+            return null;
 #else
             return null;
 #endif
+        }
+    }
+
+    /// <summary>
+    /// Força a câmera a se afastar matematicamente caso a tela (como em celulares "em pé" no modo Portrait)
+    /// seja mais fina do que o necessário para cobrir a largura do nosso tabuleiro.
+    /// </summary>
+    public class MobileCameraFitter : MonoBehaviour
+    {
+        private Camera _cam;
+        private float _minOrthoSize = 6.8f;
+        private float _targetSafeWidth = 9.5f; // Aumentado para dar margem e o tabuleiro inteiro caber com folga 
+
+        private void Awake()
+        {
+            _cam = GetComponent<Camera>();
+        }
+
+        private void Update()
+        {
+            if (_cam == null) return;
+            
+            // Qual seria a largura atual na tela, em metros físicos, com o Ortho base num celular?
+            float currentWidth = _minOrthoSize * 2f * _cam.aspect;
+            
+            // Poxa, cortou o tabuleiro...
+            if (currentWidth < _targetSafeWidth)
+            {
+                // Calcula a matemática inversa para achar a Altura nova ideal puxando a câmera pra trás até a base de Largura caber perfeitamente!
+                _cam.orthographicSize = _targetSafeWidth / (2f * _cam.aspect);
+            }
+            else
+            {
+                // A tela já é de deitado (Ex: Tablet / PC Landscape) ou larga o suficiente. Ignora.
+                _cam.orthographicSize = _minOrthoSize;
+            }
         }
     }
 }

@@ -16,15 +16,31 @@ namespace DragonMerge.Board
         [SerializeField] private SpriteRenderer boardRenderer;
         [SerializeField] private bool usePerspectiveGrid = true;
         [SerializeField, Tooltip("Canto inferior esquerdo da área jogável (normalizado 0..1)")]
-        private Vector2 bottomLeftN = new(0.18f, 0.24f);
-        [SerializeField] private Vector2 bottomRightN = new(0.82f, 0.24f);
-        [SerializeField] private Vector2 topLeftN = new(0.27f, 0.82f);
-        [SerializeField] private Vector2 topRightN = new(0.73f, 0.82f);
+        private Vector2 bottomLeftCoord = new(0.068f, 0.148f);
+        [SerializeField] private Vector2 bottomRightCoord = new(0.932f, 0.148f);
+        [SerializeField] private Vector2 topLeftCoord = new(0.175f, 0.872f);
+        [SerializeField] private Vector2 topRightCoord = new(0.825f, 0.872f);
+        [SerializeField, Tooltip("Curva Vertical (Ajuste fino! Ex: 0.88. Mais perto de 1 desce os debaixo)")]
+        private float verticalPerspectiveCurve = 0.75f;
+
+        [Header("Manual Y (Fileira a Fileira)")]
+        [SerializeField, Tooltip("Desliga a curva matemática e usa as 8 medidas abaixo exatas")]
+        private bool useManualY = true;
+        [SerializeField, Tooltip("Onde 0 = Base (BottomLeft) e 1 = Topo (TopLeft). Índice 0 = primeira linha de baixo")]
+        private float[] rowYPositions = new float[] {
+            0.22f, 0.34f, 0.47f, 0.59f, 0.70f, 0.79f, 0.87f, 0.95f
+        };
+
+        [Header("Manual X (Coluna a Coluna)")]
+        [SerializeField, Tooltip("Desliga o espaçamento igual e usa as 5 medidas de largura")]
+        private bool useManualX = true;
+        [SerializeField, Tooltip("Onde 0 = Esquerda e 1 = Direita. Padrão para 5 itens: 0.1, 0.3, 0.5, 0.7, 0.9")]
+        private float[] colXPositions = new float[] {
+            0.1f, 0.3f, 0.5f, 0.7f, 0.9f
+        };
 
         [Header("Visuals")]
-        [SerializeField, Range(0.35f, 1.0f)] private float itemFillRatio = 0.62f;
-        [SerializeField, Range(0.5f, 1.5f)] private float bottomRowScaleBoost = 1.18f;
-        [SerializeField, Range(0.3f, 1.2f)] private float topRowScaleBoost = 0.82f;
+        [SerializeField, Range(0.35f, 1.2f)] private float itemFillRatio = 0.85f;
         [SerializeField] private Sprite[] eggSprites;
         [SerializeField] private Sprite[] crackedSprites;
         [SerializeField] private Sprite[] hatchingSprites;
@@ -83,17 +99,17 @@ namespace DragonMerge.Board
         {
             if (boardRenderer == null)
             {
-                boardRenderer = FindObjectsOfType<SpriteRenderer>()
+                boardRenderer = FindObjectsByType<SpriteRenderer>(FindObjectsSortMode.None)
                     .FirstOrDefault(s => s.name.ToLower().Contains("taboleiro5x8") || s.name.ToLower().Contains("tabuleiro"));
             }
 
             _hasMappedBoard = boardRenderer != null && boardRenderer.sprite != null;
             if (!_hasMappedBoard) return;
 
-            _bottomLeft = NormalizedToWorld(bottomLeftN);
-            _bottomRight = NormalizedToWorld(bottomRightN);
-            _topLeft = NormalizedToWorld(topLeftN);
-            _topRight = NormalizedToWorld(topRightN);
+            _bottomLeft = NormalizedToWorld(bottomLeftCoord);
+            _bottomRight = NormalizedToWorld(bottomRightCoord);
+            _topLeft = NormalizedToWorld(topLeftCoord);
+            _topRight = NormalizedToWorld(topRightCoord);
         }
 
         private Vector3 NormalizedToWorld(Vector2 n)
@@ -103,17 +119,43 @@ namespace DragonMerge.Board
             return boardRenderer.transform.TransformPoint(local);
         }
 
+        private float GetVerticalPerspectiveT(float linearT, int yIndex)
+        {
+            if (useManualY && rowYPositions != null && yIndex >= 0 && yIndex < rowYPositions.Length)
+            {
+                // Se o modo manual estiver ligado, basta pegar o valor exato no array de 8 fileiras
+                return rowYPositions[yIndex];
+            }
+
+            if (!usePerspectiveGrid) return linearT;
+            return Mathf.Pow(linearT, verticalPerspectiveCurve);
+        }
+
         public Vector3 GetWorldPosition(int x, int y)
         {
             if (!_hasMappedBoard || !usePerspectiveGrid)
                 return new Vector3(fallbackOffset.x + x * fallbackCellSize, fallbackOffset.y + y * fallbackCellSize, 0f);
 
-            float t = (y + 0.5f) / height;
+            float linearT = (y + 0.5f) / height;
+            float tY = GetVerticalPerspectiveT(linearT, y);
+            
             float u = (x + 0.5f) / width;
+            if (useManualX && colXPositions != null && x >= 0 && x < colXPositions.Length)
+            {
+                u = colXPositions[x];
+            }
 
-            Vector3 left = Vector3.Lerp(_bottomLeft, _topLeft, t);
-            Vector3 right = Vector3.Lerp(_bottomRight, _topRight, t);
-            return Vector3.Lerp(left, right, u);
+            // HORIZONTAL: Mantém a interpolação linear original para não quebrar a largura
+            Vector3 linearLeft = Vector3.Lerp(_bottomLeft, _topLeft, linearT);
+            Vector3 linearRight = Vector3.Lerp(_bottomRight, _topRight, linearT);
+            float finalX = Mathf.Lerp(linearLeft.x, linearRight.x, u);
+
+            // VERTICAL: Aplica a nossa curva de elevação (tY) para subir os ovos inferiores
+            Vector3 perspLeft = Vector3.Lerp(_bottomLeft, _topLeft, tY);
+            Vector3 perspRight = Vector3.Lerp(_bottomRight, _topRight, tY);
+            float finalY = Mathf.Lerp(perspLeft.y, perspRight.y, u);
+
+            return new Vector3(finalX, finalY, 0f);
         }
 
         private float GetCellWorldSizeAtRow(int y)
@@ -121,13 +163,14 @@ namespace DragonMerge.Board
             if (!_hasMappedBoard || !usePerspectiveGrid)
                 return fallbackCellSize;
 
-            float t = Mathf.Clamp01((y + 0.5f) / height);
-            Vector3 left = Vector3.Lerp(_bottomLeft, _topLeft, t);
-            Vector3 right = Vector3.Lerp(_bottomRight, _topRight, t);
-            float rowWidthCell = Vector3.Distance(left, right) / width;
+            float linearT = Mathf.Clamp01((y + 0.5f) / height);
+            
+            // Usa as margens originais para a escala, para manter proporções agradáveis
+            Vector3 left = Vector3.Lerp(_bottomLeft, _topLeft, linearT);
+            Vector3 right = Vector3.Lerp(_bottomRight, _topRight, linearT);
+            float rowWidth = Vector3.Distance(left, right) / width;
 
-            float perspectiveBoost = Mathf.Lerp(bottomRowScaleBoost, topRowScaleBoost, t);
-            return rowWidthCell * perspectiveBoost;
+            return rowWidth;
         }
 
         public MergeItem SpawnRandomEgg(int x, int y, bool fromTop = false)
@@ -173,20 +216,40 @@ namespace DragonMerge.Board
 
         public Sprite GetSprite(ItemTier tier, ItemColor color)
         {
-            int idx = (int)color;
-            Sprite[] source = tier switch
+            int baseIdx = (int)color;
+            int finalIdx = baseIdx;
+
+            switch (tier)
             {
-                ItemTier.Egg => eggSprites,
-                ItemTier.CrackedEgg => crackedSprites,
-                ItemTier.HatchingEgg => hatchingSprites,
-                ItemTier.BabyDragon => babyDragonSprites,
-                _ => eggSprites
-            };
+                case ItemTier.CrackedEgg:
+                    int[] crackedMap = { 0, 2, 4, 6, 1, 5, 3, 7, 15, 14, 13, 11 };
+                    finalIdx = baseIdx < crackedMap.Length ? crackedMap[baseIdx] : baseIdx;
+                    if (crackedSprites != null && crackedSprites.Length > 0)
+                        return crackedSprites[Mathf.Clamp(finalIdx, 0, crackedSprites.Length - 1)];
+                    break;
 
-            if (source == null || source.Length == 0)
-                return null;
+                case ItemTier.HatchingEgg:
+                    int[] hatchingMap = { 0, 1, 2, 3, 7, 5, 6, 7, 8, 9, 10, 11 };
+                    finalIdx = baseIdx < hatchingMap.Length ? hatchingMap[baseIdx] : baseIdx;
+                    if (hatchingSprites != null && hatchingSprites.Length > 0)
+                        return hatchingSprites[Mathf.Clamp(finalIdx, 0, hatchingSprites.Length - 1)];
+                    break;
 
-            return source[Mathf.Clamp(idx, 0, source.Length - 1)];
+                case ItemTier.BabyDragon:
+                    int[] babyMap = { 0, 1, 2, 3, 8, 0, 7, 8, 12, 11, 9, 10 };
+                    finalIdx = baseIdx < babyMap.Length ? babyMap[baseIdx] : baseIdx;
+                    if (babyDragonSprites != null && babyDragonSprites.Length > 0)
+                        return babyDragonSprites[Mathf.Clamp(finalIdx, 0, babyDragonSprites.Length - 1)];
+                    break;
+
+                case ItemTier.Egg:
+                default:
+                    if (eggSprites != null && eggSprites.Length > 0)
+                        return eggSprites[Mathf.Clamp(baseIdx, 0, eggSprites.Length - 1)];
+                    break;
+            }
+
+            return null;
         }
 
         public void UpgradeItem(MergeItem item, ItemTier newTier)

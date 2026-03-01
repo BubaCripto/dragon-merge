@@ -13,11 +13,18 @@ namespace DragonMerge.Items
 
     public enum ItemColor
     {
-        Red = 0,
-        Blue = 1,
-        Green = 2,
-        Yellow = 3,
-        Purple = 4
+        Color0 = 0,
+        Color1 = 1,
+        Color2 = 2,
+        Color3 = 3,
+        Color4 = 4,
+        Color5 = 5,
+        Color6 = 6,
+        Color7 = 7,
+        Color8 = 8,
+        Color9 = 9,
+        Color10 = 10,
+        Color11 = 11
     }
 
     [RequireComponent(typeof(SpriteRenderer), typeof(Collider2D))]
@@ -47,6 +54,24 @@ namespace DragonMerge.Items
             Tier = tier;
             Color = color;
             spriteRenderer.sprite = sprite;
+
+            var box = GetComponent<BoxCollider2D>();
+            if (box != null && sprite != null)
+            {
+                box.size = new Vector2(sprite.bounds.size.x, sprite.bounds.size.y);
+            }
+        }
+
+        public void Highlight()
+        {
+            if (spriteRenderer != null) spriteRenderer.color = new UnityEngine.Color(0.8f, 0.8f, 0.8f, 1f);
+            transform.localScale *= 1.1f;
+        }
+
+        public void ResetHighlight()
+        {
+            if (spriteRenderer != null) spriteRenderer.color = UnityEngine.Color.white;
+            transform.localScale /= 1.1f;
         }
 
         public Coroutine MoveTo(MonoBehaviour runner, Vector3 target, float duration = 0.12f)
