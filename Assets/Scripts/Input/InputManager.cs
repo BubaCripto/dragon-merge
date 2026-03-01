@@ -1,6 +1,9 @@
 using DragonMerge.Board;
 using DragonMerge.Items;
 using UnityEngine;
+#if ENABLE_INPUT_SYSTEM
+using UnityEngine.InputSystem;
+#endif
 
 namespace DragonMerge.InputSystem
 {
@@ -21,15 +24,31 @@ namespace DragonMerge.InputSystem
         {
             if (boardManager == null || boardManager.IsBusy) return;
 
-            if (Input.GetMouseButtonDown(0))
+            bool pressedThisFrame;
+            bool releasedThisFrame;
+            Vector2 pointerScreenPos;
+
+#if ENABLE_INPUT_SYSTEM
+            var pointer = Pointer.current;
+            if (pointer == null) return;
+            pressedThisFrame = pointer.press.wasPressedThisFrame;
+            releasedThisFrame = pointer.press.wasReleasedThisFrame;
+            pointerScreenPos = pointer.position.ReadValue();
+#else
+            pressedThisFrame = Input.GetMouseButtonDown(0);
+            releasedThisFrame = Input.GetMouseButtonUp(0);
+            pointerScreenPos = Input.mousePosition;
+#endif
+
+            if (pressedThisFrame)
             {
-                _startPointer = cam.ScreenToWorldPoint(Input.mousePosition);
+                _startPointer = cam.ScreenToWorldPoint(pointerScreenPos);
                 _selected = PickItem(_startPointer);
             }
 
-            if (Input.GetMouseButtonUp(0) && _selected != null)
+            if (releasedThisFrame && _selected != null)
             {
-                Vector2 end = cam.ScreenToWorldPoint(Input.mousePosition);
+                Vector2 end = cam.ScreenToWorldPoint(pointerScreenPos);
                 Vector2 delta = end - _startPointer;
                 if (delta.magnitude < 0.15f)
                 {
@@ -48,7 +67,9 @@ namespace DragonMerge.InputSystem
                 {
                     var target = boardManager.Grid[tx, ty];
                     if (target != null && boardManager.AreNeighbors(_selected, target))
+                    {
                         StartCoroutine(boardManager.TrySwapAndResolve(_selected, target));
+                    }
                 }
 
                 _selected = null;

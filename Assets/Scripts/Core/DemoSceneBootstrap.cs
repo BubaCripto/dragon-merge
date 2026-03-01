@@ -23,13 +23,13 @@ namespace DragonMerge.Core
             }
 
             camera.orthographic = true;
-            camera.orthographicSize = 6f;
+            camera.orthographicSize = 6.8f;
             camera.transform.position = new Vector3(2f, 3.5f, -10f);
 
             CreateBackground("Assets/Sprites/Environment/ceu-cenario.png", -8, 0.0f);
             CreateBackground("Assets/Sprites/Environment/cachoeira.png", -7, 0.2f);
             CreateBackground("Assets/Sprites/Environment/mega-arvores.png", -6, 0.35f);
-            CreateBackground("Assets/Sprites/Environment/taboleiro5x8.png", -5, 0f, new Vector3(2f, 3.5f, 0f));
+            var boardSr = CreateBackground("Assets/Sprites/Environment/taboleiro5x8.png", -5, 0f, new Vector3(2f, 3.5f, 0f));
 
             var root = new GameObject("DragonMergeRuntime");
             var gm = root.AddComponent<GameManager>();
@@ -38,10 +38,10 @@ namespace DragonMerge.Core
             var bm = root.AddComponent<BoardManager>();
             var im = root.AddComponent<InputManager>();
 
-            Link(root, bm, im, mc, gc, gm);
+            Link(bm, im, mc, gc, gm, boardSr);
         }
 
-        private static void Link(GameObject root, BoardManager bm, InputManager im, MergeController mc, GravityController gc, GameManager gm)
+        private static void Link(BoardManager bm, InputManager im, MergeController mc, GravityController gc, GameManager gm, SpriteRenderer boardSr)
         {
             SetField(mc, "boardManager", bm);
             SetField(mc, "gameManager", gm);
@@ -51,7 +51,7 @@ namespace DragonMerge.Core
             SetField(bm, "mergeController", mc);
             SetField(bm, "gravityController", gc);
             SetField(bm, "gameManager", gm);
-            SetField(bm, "boardOffset", new Vector2(0f, 0f));
+            SetField(bm, "boardRenderer", boardSr);
         }
 
         private static void SetField(object target, string fieldName, object value)
@@ -60,7 +60,7 @@ namespace DragonMerge.Core
             f?.SetValue(target, value);
         }
 
-        private static void CreateBackground(string path, int sortingOrder, float parallaxSpeed, Vector3? worldPos = null)
+        private static SpriteRenderer CreateBackground(string path, int sortingOrder, float parallaxSpeed, Vector3? worldPos = null)
         {
             var go = new GameObject(System.IO.Path.GetFileNameWithoutExtension(path));
             go.transform.position = worldPos ?? Vector3.zero;
@@ -72,6 +72,8 @@ namespace DragonMerge.Core
                 var p = go.AddComponent<ParallaxLayer>();
                 SetField(p, "speed", parallaxSpeed);
             }
+
+            return sr;
         }
 
         private static Sprite LoadSprite(string path)

@@ -1,7 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
-using DragonMerge.InputSystem;
 using DragonMerge.Items;
 using DragonMerge.Logic;
 using UnityEngine;
@@ -17,6 +15,8 @@ namespace DragonMerge.Board
         [SerializeField] private Vector2 boardOffset = Vector2.zero;
 
         [Header("Visuals")]
+        [SerializeField] private SpriteRenderer boardRenderer;
+        [SerializeField, Range(0.4f, 1.2f)] private float itemFillRatio = 0.78f;
         [SerializeField] private Sprite[] eggSprites;
         [SerializeField] private Sprite[] crackedSprites;
         [SerializeField] private Sprite[] hatchingSprites;
@@ -33,6 +33,9 @@ namespace DragonMerge.Board
         public bool IsBusy { get; private set; }
 
         private Transform _itemRoot;
+        private Vector2 _boardBottomLeft;
+        private float _cellWidth;
+        private float _cellHeight;
 
         private void Awake()
         {
@@ -44,25 +47,58 @@ namespace DragonMerge.Board
         private IEnumerator Start()
         {
             AutoWireEditorSprites();
+            ResolveBoardLayout();
             yield return FillBoardWithoutStartingMatches();
         }
 
         private void AutoWireEditorSprites()
         {
 #if UNITY_EDITOR
-            if (eggSprites != null && eggSprites.Length > 0) return;
-            eggSprites = UnityEditor.AssetDatabase.LoadAllAssetsAtPath("Assets/Sprites/Environment/ovos.png").OfType<Sprite>().ToArray();
-            crackedSprites = UnityEditor.AssetDatabase.LoadAllAssetsAtPath("Assets/Sprites/Environment/ovo-rachando.png").OfType<Sprite>().ToArray();
-            hatchingSprites = UnityEditor.AssetDatabase.LoadAllAssetsAtPath("Assets/Sprites/Environment/ovo-chocando.png").OfType<Sprite>().ToArray();
-            babyDragonSprites = UnityEditor.AssetDatabase.LoadAllAssetsAtPath("Assets/Sprites/Environment/dragao-bebe.png").OfType<Sprite>().ToArray();
+            if (eggSprites == null || eggSprites.Length == 0)
+                eggSprites = UnityEditor.AssetDatabase.LoadAllAssetsAtPath("Assets/Sprites/Environment/ovos.png").OfType<Sprite>().ToArray();
+            if (crackedSprites == null || crackedSprites.Length == 0)
+                crackedSprites = UnityEditor.AssetDatabase.LoadAllAssetsAtPath("Assets/Sprites/Environment/ovo-rachando.png").OfType<Sprite>().ToArray();
+            if (hatchingSprites == null || hatchingSprites.Length == 0)
+                hatchingSprites = UnityEditor.AssetDatabase.LoadAllAssetsAtPath("Assets/Sprites/Environment/ovo-chocando.png").OfType<Sprite>().ToArray();
+            if (babyDragonSprites == null || babyDragonSprites.Length == 0)
+                babyDragonSprites = UnityEditor.AssetDatabase.LoadAllAssetsAtPath("Assets/Sprites/Environment/dragao-bebe.png").OfType<Sprite>().ToArray();
 #endif
         }
 
-        public Vector3 GetWorldPosition(int x, int y) => new Vector3(boardOffset.x + x * cellSize, boardOffset.y + y * cellSize, 0f);
+        private void ResolveBoardLayout()
+        {
+            if (boardRenderer == null)
+            {
+                boardRenderer = FindObjectsOfType<SpriteRenderer>()
+                    .FirstOrDefault(s => s.name.ToLower().Contains("taboleiro5x8") || s.name.ToLower().Contains("tabuleiro"));
+            }
+
+            if (boardRenderer != null)
+            {
+                Bounds b = boardRenderer.bounds;
+                _cellWidth = b.size.x / width;
+                _cellHeight = b.size.y / height;
+                _boardBottomLeft = new Vector2(b.min.x, b.min.y);
+            }
+            else
+            {
+                _cellWidth = cellSize;
+                _cellHeight = cellSize;
+                _boardBottomLeft = boardOffset;
+            }
+        }
+
+        public Vector3 GetWorldPosition(int x, int y)
+        {
+            float px = _boardBottomLeft.x + (x + 0.5f) * _cellWidth;
+            float py = _boardBottomLeft.y + (y + 0.5f) * _cellHeight;
+            return new Vector3(px, py, 0f);
+        }
 
         public MergeItem SpawnRandomEgg(int x, int y, bool fromTop = false)
         {
-            var color = (ItemColor)Random.Range(0, Mathf.Min(5, eggSprites.Length));
+            int paletteSize = Mathf.Min(5, eggSprites != null ? eggSprites.Length : 5);
+            var color = (ItemColor)Random.Range(0, Mathf.Max(1, paletteSize));
             return SpawnItem(x, y, ItemTier.Egg, color, fromTop);
         }
 
@@ -80,9 +116,24 @@ namespace DragonMerge.Board
 
             item.SetGridPosition(x, y);
             item.SetData(tier, color, GetSprite(tier, color));
+            FitItemToCell(item);
             Grid[x, y] = item;
 
             return item;
+        }
+
+        private void FitItemToCell(MergeItem item)
+        {
+            if (item == null) return;
+            var sr = item.GetComponent<SpriteRenderer>();
+            if (sr == null || sr.sprite == null) return;
+
+            Vector2 spriteSize = sr.sprite.bounds.size;
+            if (spriteSize.x <= 0f || spriteSize.y <= 0f) return;
+
+            float target = Mathf.Min(_cellWidth, _cellHeight) * itemFillRatio;
+            float scale = target / Mathf.Max(spriteSize.x, spriteSize.y);
+            item.transform.localScale = Vector3.one * scale;
         }
 
         public Sprite GetSprite(ItemTier tier, ItemColor color)
@@ -106,6 +157,7 @@ namespace DragonMerge.Board
         public void UpgradeItem(MergeItem item, ItemTier newTier)
         {
             item.SetData(newTier, item.Color, GetSprite(newTier, item.Color));
+            FitItemToCell(item);
         }
 
         public void ClearCell(int x, int y, bool destroyObject)
